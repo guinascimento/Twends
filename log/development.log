@@ -1,0 +1,2249 @@
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:42:54) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Rendering board/current
+Cached fragment miss: views/localhost:3000/board/current (16.0ms)
+Completed in 11922ms (View: 78, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:43:19) [GET]
+Cached fragment hit: views/localhost:3000/board/current (16.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47bd35c @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47bd1e0 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47bd35c @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:43:31) [GET]
+Cached fragment hit: views/localhost:3000/board/current (15.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4770110 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x476ff94 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4770110 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:43:57) [GET]
+Cached fragment hit: views/localhost:3000/board/current (16.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x471e194 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x471df8c @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x471e194 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:44:25) [GET]
+Cached fragment hit: views/localhost:3000/board/current (31.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x46d4760 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46d460c @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x46d4760 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:44:53) [GET]
+Cached fragment hit: views/localhost:3000/board/current (140.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x468ac3c @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x468aa98 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x468ac3c @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:44:58) [GET]
+Cached fragment hit: views/localhost:3000/board/current (15.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x463db80 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x463da04 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x463db80 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 281ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:45:17) [GET]
+Cached fragment hit: views/localhost:3000/board/current (15.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x485d398 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x485d244 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x485d398 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:45:44) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4814238 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48140e4 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4814238 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:46:08) [GET]
+Cached fragment hit: views/localhost:3000/board/current (16.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47ca534 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47ca3e0 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47ca534 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:46:21) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4782234 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x478202c @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4782234 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:46:30) [GET]
+Cached fragment hit: views/localhost:3000/board/current (31.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47379c8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47377d4 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47379c8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:46:41) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x46e3cd8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46e3b70 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x46e3cd8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:47:18) [GET]
+Cached fragment hit: views/localhost:3000/board/current (15.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4699a34 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46998e0 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4699a34 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:47:23) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x464734c @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4647180 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x464734c @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:47:27) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x45fbadc @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45fb848 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x45fbadc @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:47:52) [GET]
+Cached fragment hit: views/localhost:3000/board/current (15.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x45baac8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45ba974 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x45baac8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:48:53) [GET]
+Cached fragment hit: views/localhost:3000/board/current (16.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4889a38 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48898e4 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4889a38 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:49:25) [GET]
+Cached fragment hit: views/localhost:3000/board/current (15.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4846300 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48461ac @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4846300 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>60 seconds}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:49:52) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Rendering board/current
+Cached fragment miss: views/localhost:3000/board/current (0.0ms)
+Completed in 6922ms (View: 47, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:57:22) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47b9b08 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47b99b4 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47b9b08 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:57:25) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4777000 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4776e84 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4777000 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:57:26) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47391d8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4738fd0 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47391d8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 14:57:35) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x46f0870 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46f0668 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x46f0870 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:00:22) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Rendering board/current
+Cached fragment miss: views/localhost:3000/board/current (0.0ms)
+Completed in 15672ms (View: 31, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:00:53) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47b9874 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47b970c @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47b9874 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:01:11) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4776d80 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4776c04 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4776d80 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:03:20) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Rendering board/current
+Cached fragment miss: views/localhost:3000/board/current (0.0ms)
+Completed in 9187ms (View: 16, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:05:13) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47b9130 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47b8c94 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47b9130 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"current"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:07:01) [GET]
+Cached fragment hit: views/localhost:3000/board/current (0.0ms)
+Rendering board/current
+Cached fragment miss: views/localhost:3000/board/current (0.0ms)
+Completed in 6125ms (View: 31, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:11:03) [GET]
+Rendering board/current
+Completed in 7594ms (View: 31, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:12:23) [GET]
+Rendering board/current
+Completed in 5984ms (View: 31, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:13:49) [GET]
+Rendering board/current
+Completed in 10063ms (View: 110, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:14:10) [GET]
+Rendering board/current
+Completed in 10563ms (View: 375, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:14:34) [GET]
+Rendering board/current
+Completed in 6703ms (View: 78, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:14:54) [GET]
+Rendering board/current
+Completed in 6641ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:15:41) [GET]
+Rendering board/current
+Completed in 6859ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:16:21) [GET]
+Rendering board/current
+Completed in 6422ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:16:33) [GET]
+Rendering board/current
+Completed in 5813ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:16:46) [GET]
+Rendering board/current
+Completed in 6235ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:18:18) [GET]
+Rendering board/current
+Completed in 8906ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:19:36) [GET]
+Rendering board/current
+Completed in 6500ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:20:07) [GET]
+Rendering board/current
+Completed in 6484ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:21:38) [GET]
+Rendering board/current
+Completed in 9953ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:22:08) [GET]
+Rendering board/current
+Completed in 9063ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:22:33) [GET]
+Rendering board/current
+Completed in 9687ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:24:50) [GET]
+Rendering board/current
+Completed in 6516ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:25:13) [GET]
+Rendering board/current
+Completed in 9047ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:25:59) [GET]
+Rendering board/current
+Completed in 9235ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:30:53) [GET]
+Rendering board/current
+Completed in 5812ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:31:14) [GET]
+Rendering board/current
+Completed in 13625ms (View: 16, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:31:45) [GET]
+Rendering board/current
+Completed in 8640ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:32:24) [GET]
+Rendering board/current
+Completed in 6110ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:32:43) [GET]
+Rendering board/current
+Completed in 6000ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:32:59) [GET]
+Rendering board/current
+Completed in 9828ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:34:09) [GET]
+Rendering board/current
+Completed in 5672ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:35:24) [GET]
+Rendering board/current
+Completed in 7532ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:37:31) [GET]
+Rendering board/current
+Completed in 6734ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:37:44) [GET]
+Rendering board/current
+Completed in 7453ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:38:00) [GET]
+Rendering board/current
+Completed in 7844ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:38:17) [GET]
+Rendering board/current
+Completed in 5609ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:39:04) [GET]
+Rendering board/current
+Completed in 6719ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:42:12) [GET]
+Rendering board/current
+Completed in 7156ms (View: 15, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:42:45) [GET]
+Rendering board/current
+Completed in 6297ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:43:00) [GET]
+Rendering board/current
+Completed in 9328ms (View: 0, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:43:23) [GET]
+Rendering board/current
+Completed in 6000ms (View: 16, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:51:26) [GET]
+Rendering board/current
+Completed in 6985ms (View: 16, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 15:51:38) [GET]
+Rendering board/current
+Completed in 6141ms (View: 16, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 16:09:08) [GET]
+Rendering board/current
+Completed in 11906ms (View: 16, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 16:09:39) [GET]
+Rendering board/current
+Completed in 17234ms (View: 15, DB: 0) | 200 OK [http://localhost/board/current]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-28 16:11:00) [GET]
+Rendering board/current
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #29 of app/views/board/current.html.erb:
+26:         <div id="contentleft">
+27:           <div id="options"><%=  link_to "Minute", :action => "current", :trends => "current" %> | Day | Week</div>
+28:           <div id="main" class="image">
+29:             <% @current_photos.each do |text, photos| %>
+30:               <% photos.each do |p| %>
+31:                 <span class="photo" style="background-image:url('<%= p.url %>')">
+32:                   <span class="link" id="link"><%= text %></span>
+
+    app/views/board/current.html.erb:29
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (297.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:11:02) [GET]
+Rendering board/index
+Completed in 7141ms (View: 16, DB: 0) | 200 OK [http://localhost/board/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:11:36) [GET]
+Rendering board/index
+Completed in 6218ms (View: 46, DB: 0) | 200 OK [http://localhost/board/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:11:48) [GET]
+  Parameters: {"trends"=>"current"}
+Rendering board/index
+Completed in 5735ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=current]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:12:20) [GET]
+  Parameters: {"trends"=>"current"}
+Rendering board/index
+Completed in 5984ms (View: 46, DB: 0) | 200 OK [http://localhost/board?trends=current]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:12:44) [GET]
+  Parameters: {"trends"=>"current"}
+Rendering board/index
+Completed in 7219ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=current]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:13:15) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7172ms (View: 15, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:15:44) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NoMethodError (undefined method `name' for "minute":String):
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (79.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:16:59) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:17:24) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NoMethodError (undefined method `name' for "minute":String):
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:17:49) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/controllers/board_controller.rb:14:in `index'
+  app/controllers/board_controller.rb:13:in `each'
+  app/controllers/board_controller.rb:13:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:18:11) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8500ms (View: 15, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:18:39) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/controllers/board_controller.rb:15:in `index'
+  app/controllers/board_controller.rb:14:in `each'
+  app/controllers/board_controller.rb:14:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-28 16:21:18) [GET]
+  Parameters: {"trends"=>"minute"}
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/board_controller.rb:28: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:21:31) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 10547ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:23:07) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 13171ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:23:30) [GET]
+  Parameters: {"trends"=>"day"}
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:24:46) [GET]
+  Parameters: {"trends"=>"day"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=Hеrе&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/board_controller.rb:23:in `index'
+  app/controllers/board_controller.rb:21:in `each'
+  app/controllers/board_controller.rb:21:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:45:05) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 5203ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:45:32) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11438ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:45:51) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 5610ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:46:29) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 5750ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:48:02) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 5187ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:49:18) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 3234ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:49:33) [GET]
+  Parameters: {"trends"=>"day"}
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:50:27) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 9531ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:50:54) [GET]
+  Parameters: {"trends"=>"week"}
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:52:55) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 13547ms (View: 32, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:53:17) [GET]
+  Parameters: {"trends"=>"day"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.values):
+  twitter (0.6.15) lib/twitter/trends.rb:26:in `mashup'
+  twitter (0.6.15) lib/twitter/trends.rb:15:in `daily'
+  app/controllers/board_controller.rb:8:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:53:42) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 18812ms (View: 15, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 16:55:08) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 143062ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:19:32) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 11453ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:20:13) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 11860ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:21:47) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9938ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:32:33) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 10141ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:32:50) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 11282ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:33:10) [GET]
+  Parameters: {"trends"=>"minute"}
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:33:39) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9125ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:35:40) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 9110ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:36:01) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 11907ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:36:15) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 11719ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:39:50) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 9578ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:40:02) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 7860ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:42:12) [GET]
+  Parameters: {"trends"=>"day"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Rendering board/index
+Cached fragment miss: views/localhost:3000/board (0.0ms)
+Completed in 9563ms (View: 125, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:42:24) [GET]
+  Parameters: {"trends"=>"week"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x45d22f4 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45d21a0 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x45d22f4 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:42:27) [GET]
+  Parameters: {"trends"=>"day"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4587510 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45873bc @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4587510 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:42:28) [GET]
+  Parameters: {"trends"=>"minute"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4547514 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45472d0 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4547514 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:42:29) [GET]
+  Parameters: {"trends"=>"minute"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x45101b8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4510064 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x45101b8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:42:30) [GET]
+  Parameters: {"trends"=>"day"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4863720 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48635cc @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4863720 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 17:42:30) [GET]
+  Parameters: {"trends"=>"week"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x482fb00 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x482f9ac @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x482fb00 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 20:54:56) [GET]
+  Parameters: {"trends"=>"week"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Rendering board/index
+Cached fragment miss: views/localhost:3000/board (0.0ms)
+Completed in 9671ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 20:55:18) [GET]
+  Parameters: {"trends"=>"day"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x45c9140 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45c8fec @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x45c9140 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 20:55:20) [GET]
+  Parameters: {"trends"=>"minute"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x457f090 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x457ecf8 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x457f090 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 20:55:21) [GET]
+  Parameters: {"trends"=>"minute"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x453c3bc @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x453c268 @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x453c3bc @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>, @kind=:filter, @options={:if=>nil, :only=>#<Set: {"index"}>, :unless=>nil}, @identifier=nil>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 20:55:27) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 10781ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 20:55:48) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 8172ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-28 20:57:34) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 10671ms (View: 15, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#current (for 127.0.0.1 at 2009-09-29 13:03:06) [GET]
+Rendering board/current
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #29 of app/views/board/current.html.erb:
+26:         <div id="contentleft">
+27:           <div id="options"><%=  link_to "Minute", :action => "current", :trends => "current" %> | Day | Week</div>
+28:           <div id="main" class="image">
+29:             <% @current_photos.each do |text, photos| %>
+30:               <% photos.each do |p| %>
+31:                 <span class="photo" style="background-image:url('<%= p.url %>')">
+32:                   <span class="link" id="link"><%= text %></span>
+
+    app/views/board/current.html.erb:29
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (281.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:07:32) [GET]
+Rendering board/index
+Completed in 4750ms (View: 109, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:07:41) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11734ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:08:18) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 9782ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:08:50) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 12437ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:10:27) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8766ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:14:30) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NameError (uninitialized constant BoardController::Flicker):
+  app/controllers/board_controller.rb:14:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (437.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:14:49) [GET]
+  Parameters: {"trends"=>"minute"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/board_controller.rb:14:in `initialize'
+  app/controllers/board_controller.rb:14:in `new'
+  app/controllers/board_controller.rb:14:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:15:20) [GET]
+  Parameters: {"trends"=>"minute"}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/board_controller.rb:14:in `initialize'
+  app/controllers/board_controller.rb:14:in `new'
+  app/controllers/board_controller.rb:14:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:15:50) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NoMethodError (undefined method `search' for Flickr:Class):
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (79.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:16:24) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8719ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:17:50) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NameError (uninitialized constant Flickr::MemCache):
+  lib/Flickr.rb:11:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:18:51) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 12688ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:26:00) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8922ms (View: 78, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:26:50) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9875ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:31:21) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NoMethodError (undefined method `cache_expiry=' for <MemCache: 1 servers, ns: "twends", ro: false>:MemCache):
+  lib/Flickr.rb:14:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (266.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:32:22) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11000ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:39:16) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.get):
+  lib/Flickr.rb:16:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (235.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:46:26) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NameError (uninitialized constant REXML::Formatters):
+  httparty (0.4.3) lib/httparty/core_extensions.rb:20:in `write'
+  c:/ruby/lib/ruby/1.8/rexml/node.rb:23:in `to_s'
+  lib/Flickr.rb:26:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:48:04) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NameError (uninitialized constant REXML::Formatters):
+  httparty (0.4.3) lib/httparty/core_extensions.rb:20:in `write'
+  c:/ruby/lib/ruby/1.8/rexml/node.rb:23:in `to_s'
+  lib/Flickr.rb:26:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:48:41) [GET]
+  Parameters: {"trends"=>"minute"}
+
+TypeError (singleton can't be dumped):
+  lib/Flickr.rb:26:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:51:34) [GET]
+  Parameters: {"trends"=>"minute"}
+
+TypeError (singleton can't be dumped):
+  lib/Flickr.rb:26:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-09-30 15:53:08) [GET]
+  Parameters: {"trends"=>"minute"}
+
+NameError (undefined local variable or method `request' for Flickr:Class):
+  lib/Flickr.rb:26:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-01 17:01:33) [GET]
+Rendering board/index
+Completed in 4172ms (View: 125, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-01 17:01:45) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 10375ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-01 17:02:20) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 8797ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-01 17:03:59) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 12500ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-01 17:05:24) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 13531ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-01 17:05:45) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 21172ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-01 17:06:34) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 13719ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 11:53:58) [GET]
+Rendering board/index
+Completed in 3094ms (View: 110, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 11:54:06) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9578ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 11:54:39) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 9266ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 11:55:07) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 17875ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 11:56:11) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 12078ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 13:01:59) [GET]
+Rendering board/index
+Completed in 3234ms (View: 47, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 13:02:12) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 16625ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 13:03:06) [GET]
+  Parameters: {"trends"=>"day"}
+
+Errno::ECONNRESET (Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.):
+  c:/ruby/lib/ruby/1.8/net/protocol.rb:133:in `sysread'
+  c:/ruby/lib/ruby/1.8/net/protocol.rb:133:in `rbuf_fill'
+  c:/ruby/lib/ruby/1.8/timeout.rb:56:in `timeout'
+  c:/ruby/lib/ruby/1.8/timeout.rb:76:in `timeout'
+  c:/ruby/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+  c:/ruby/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+  c:/ruby/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+  c:/ruby/lib/ruby/1.8/net/http.rb:2017:in `read_status_line'
+  c:/ruby/lib/ruby/1.8/net/http.rb:2006:in `read_new'
+  c:/ruby/lib/ruby/1.8/net/http.rb:1047:in `request'
+  c:/ruby/lib/ruby/1.8/net/http.rb:1034:in `request'
+  c:/ruby/lib/ruby/1.8/net/http.rb:543:in `start'
+  c:/ruby/lib/ruby/1.8/net/http.rb:1032:in `request'
+  httparty (0.4.3) lib/httparty/request.rb:69:in `perform_actual_request'
+  httparty (0.4.3) lib/httparty/request.rb:73:in `get_response'
+  httparty (0.4.3) lib/httparty/request.rb:40:in `perform'
+  httparty (0.4.3) lib/httparty.rb:156:in `perform_request'
+  httparty (0.4.3) lib/httparty.rb:122:in `get'
+  twitter (0.6.15) lib/twitter/trends.rb:15:in `daily'
+  app/controllers/board_controller.rb:7:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (594.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 13:04:02) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 9296ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 19:21:11) [GET]
+Rendering board/index
+Completed in 4359ms (View: 16, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 19:21:22) [GET]
+  Parameters: {"trends"=>"minute"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=Yes,We,Créu&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 19:21:29) [GET]
+  Parameters: {"trends"=>"minute"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=Yes,We,Créu&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 19:22:06) [GET]
+  Parameters: {"trends"=>"minute"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=Yes,We,Créu&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (266.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 19:22:28) [GET]
+  Parameters: {"trends"=>"minute"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=Yes,We,Créu&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (235.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 19:22:47) [GET]
+  Parameters: {"trends"=>"minute"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=Yes,We,Créu&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/board_controller.rb:16:in `index'
+  app/controllers/board_controller.rb:15:in `each'
+  app/controllers/board_controller.rb:15:in `index'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-02 19:23:15) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 10953ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-09 21:31:10) [GET]
+Rendering board/index
+Completed in 5687ms (View: 31, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-09 21:31:18) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 12125ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-09 21:32:02) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 14547ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-09 21:34:21) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 10563ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-15 11:18:49) [GET]
+Rendering board/index
+Completed in 5563ms (View: 31, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-15 11:19:08) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9344ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-15 11:20:06) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 11125ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-15 11:20:32) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 10500ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-19 14:21:47) [GET]
+Rendering board/index
+Completed in 2953ms (View: 109, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-19 14:21:52) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9891ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-19 14:22:23) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 10907ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-19 14:23:00) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 11672ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-19 14:23:22) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8172ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:46:33) [GET]
+Rendering board/index
+Completed in 2625ms (View: 63, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:46:56) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 14328ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:47:16) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8953ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:48:34) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #9 of app/views/board/index.html.haml:
+6: 
+7: <script type="text/javascript">
+8: $(document).ready(function() {
+9:     $("span").hover(
+10:       function () {
+11:         $(this).find("#link").fadeIn("slow");
+12:         $(this).find("#share").fadeIn("slow");
+
+    app/views/board/index.html.haml:9
+    haml (2.2.4) lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:50:49) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8250ms (View: 63, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:51:06) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7750ms (View: 109, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:51:19) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8156ms (View: 313, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:52:18) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8172ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:54:27) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11515ms (View: 203, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:55:09) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9313ms (View: 47, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:55:50) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8703ms (View: 62, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:56:03) [GET]
+  Parameters: {"trends"=>"minute"}
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:56:41) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8031ms (View: 62, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 13:58:20) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11407ms (View: 32, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:00:13) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9844ms (View: 79, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:00:53) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11813ms (View: 78, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:01:38) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8547ms (View: 62, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:02:12) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+ERROR: compiling _run_haml_app47views47board47index46html46haml RAISED compile error
+c:/RailsProjects/twends/app/views/board/index.html.haml:26: syntax error, unexpected '>'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+c:/RailsProjects/twends/app/views/board/index.html.haml:26: syntax error, unexpected '='
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Function body:           def _run_haml_app47views47board47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:xhtml, :ugly=>false, :preserve=>["textarea", "pre"], :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  stylesheet_link_tag 'caption', 'main'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  javascript_include_tag 'jquery', 'jcaption.min'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n      );\n  });\n</script>\n<body>\n  <div id='content'>\n    <div id='logo'>\n      <h1>Discover what's happening in the world in pics (with <a href=\"http://www.twitter.com\" id=\"link\">Twiter</a> trends and <a href=\"http://www.flickr.com\" id=\"link\">Flickr</a> photos)</h1>\n    </div>\n    <div id='banner'>\n      <div id='contentleft'>\n        <div id='options'>\n          #{_hamlout.adjust_tabs(5); haml_temp =  link_to "Minute", :action => "index", :trends => "minute" %> | =  link_to "Day", :action => "index", :trends => "day" | =  link_to "Week", :action => "index", :trends => "week"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n", -5, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/RailsProjects/twends/app/views/board/index.html.haml:30:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/RailsProjects/twends/app/views/board/index.html.haml:26: syntax error, unexpected '>'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+c:/RailsProjects/twends/app/views/board/index.html.haml:26: syntax error, unexpected '='
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ) on line #26 of app/views/board/index.html.haml:
+23:     %div{:id => "banner"}
+24:       %div{:id => "contentleft"}
+25:         %div{:id => "options"}
+26:           = link_to "Minute", :action => "index", :trends => "minute" %> | =  link_to "Day", :action => "index", :trends => "day" | =  link_to "Week", :action => "index", :trends => "week"
+
+    app/views/board/index.html.haml:30:in `compile!'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (188.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:02:59) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+ERROR: compiling _run_haml_app47views47board47index46html46haml RAISED compile error
+c:/RailsProjects/twends/app/views/board/index.html.haml:26: syntax error, unexpected '>'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+c:/RailsProjects/twends/app/views/board/index.html.haml:26: syntax error, unexpected '='
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Function body:           def _run_haml_app47views47board47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:xhtml, :ugly=>false, :preserve=>["textarea", "pre"], :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  stylesheet_link_tag 'caption', 'main'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  javascript_include_tag 'jquery', 'jcaption.min'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n      );\n  });\n</script>\n<body>\n  <div id='content'>\n    <div id='logo'>\n      <h1>Discover what's happening in the world in pics (with <a href=\"http://www.twitter.com\" id=\"link\">Twiter</a> trends and <a href=\"http://www.flickr.com\" id=\"link\">Flickr</a> photos)</h1>\n    </div>\n    <div id='banner'>\n      <div id='contentleft'>\n        <div id='options'>\n          #{_hamlout.adjust_tabs(5); haml_temp =  link_to "Minute", :action => "index", :trends => "minute" %> | = link_to "Day", :action => "index", :trends => "day" | =  link_to "Week", :action => "index", :trends => "week"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n", -5, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/RailsProjects/twends/app/views/board/index.html.haml:30:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/RailsProjects/twends/app/views/board/index.html.haml:26: syntax error, unexpected '>'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+c:/RailsProjects/twends/app/views/board/index.html.haml:26: syntax error, unexpected '='
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ) on line #26 of app/views/board/index.html.haml:
+23:     %div{:id => "banner"}
+24:       %div{:id => "contentleft"}
+25:         %div{:id => "options"}
+26:           = link_to "Minute", :action => "index", :trends => "minute" %> | = link_to "Day", :action => "index", :trends => "day" | =  link_to "Week", :action => "index", :trends => "week"
+
+    app/views/board/index.html.haml:30:in `compile!'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:03:56) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+ERROR: compiling _run_haml_app47views47board47index46html46haml RAISED compile error
+c:/RailsProjects/twends/app/views/board/index.html.haml:27: syntax error, unexpected '>'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Function body:           def _run_haml_app47views47board47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:xhtml, :ugly=>false, :preserve=>["textarea", "pre"], :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  stylesheet_link_tag 'caption', 'main'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  javascript_include_tag 'jquery', 'jcaption.min'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n      );\n  });\n</script>\n<body>\n  <div id='content'>\n    <div id='logo'>\n      <h1>Discover what's happening in the world in pics (with <a href=\"http://www.twitter.com\" id=\"link\">Twiter</a> trends and <a href=\"http://www.flickr.com\" id=\"link\">Flickr</a> photos)</h1>\n    </div>\n    <div id='banner'>\n      <div id='contentleft'>\n        <div id='options'>\n          #{_hamlout.adjust_tabs(5); haml_temp =  link_to "Minute", :action => "index", :trends => "minute" %> = link_to "Day", :action => "index", :trends => "day" 
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n          #{haml_temp =  link_to "Week", :action => "index", :trends => "week"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n", -5, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/RailsProjects/twends/app/views/board/index.html.haml:32:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/RailsProjects/twends/app/views/board/index.html.haml:27: syntax error, unexpected '>'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ) on line #27 of app/views/board/index.html.haml:
+24:       %div{:id => "contentleft"}
+25:         %div{:id => "options"}
+26:           = link_to "Minute", :action => "index", :trends => "minute" %> |
+27:           = link_to "Day", :action => "index", :trends => "day" |
+28:           = link_to "Week", :action => "index", :trends => "week"
+
+    app/views/board/index.html.haml:32:in `compile!'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (31.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:04:35) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+ERROR: compiling _run_haml_app47views47board47index46html46haml RAISED compile error
+c:/RailsProjects/twends/app/views/board/index.html.haml:27: syntax error, unexpected '=', expecting '}'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Function body:           def _run_haml_app47views47board47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:xhtml, :ugly=>false, :preserve=>["textarea", "pre"], :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  stylesheet_link_tag 'caption', 'main'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  javascript_include_tag 'jquery', 'jcaption.min'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n      );\n  });\n</script>\n<body>\n  <div id='content'>\n    <div id='logo'>\n      <h1>Discover what's happening in the world in pics (with <a href=\"http://www.twitter.com\" id=\"link\">Twiter</a> trends and <a href=\"http://www.flickr.com\" id=\"link\">Flickr</a> photos)</h1>\n    </div>\n    <div id='banner'>\n      <div id='contentleft'>\n        <div id='options'>\n          #{_hamlout.adjust_tabs(5); haml_temp =  link_to "Minute", :action => "index", :trends => "minute" = link_to "Day", :action => "index", :trends => "day" 
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n          #{haml_temp =  link_to "Week", :action => "index", :trends => "week"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n", -5, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/RailsProjects/twends/app/views/board/index.html.haml:32:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/RailsProjects/twends/app/views/board/index.html.haml:27: syntax error, unexpected '=', expecting '}'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<script type='text/javascript'>\n  $(document).ready(function() {\n      $(\"span\").hover(\n        function () {\n          $(this).find(\"#link\").fadeIn(\"slow\");\n          $(this).find(\"#share\").fadeIn(\"slow\");\n        }, \n        function () {\n           $(this).find(\"#link\").fadeOut(\"slow\");\n           $(this).find(\"#share\").fadeOut(\"slow\");\n        }\n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ) on line #27 of app/views/board/index.html.haml:
+24:       %div{:id => "contentleft"}
+25:         %div{:id => "options"}
+26:           = link_to "Minute", :action => "index", :trends => "minute" |
+27:           = link_to "Day", :action => "index", :trends => "day" |
+28:           = link_to "Week", :action => "index", :trends => "week"
+
+    app/views/board/index.html.haml:32:in `compile!'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:05:47) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 15047ms (View: 266, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:06:46) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 12640ms (View: 62, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:07:24) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+
+ActionView::TemplateError (undefined method `|' for "minute":String) on line #27 of app/views/board/index.html.haml:
+24:       %div{:id => "contentleft"}
+25:         %div{:id => "options"}
+26:           = link_to "Minute", :action => "index", :trends => "minute"|
+27:           = link_to "Day", :action => "index", :trends => "day"
+28:           = link_to "Week", :action => "index", :trends => "week"
+
+    app/views/board/index.html.haml:27:in `_run_haml_app47views47board47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (469.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:10:02) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 18937ms (View: 94, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:13:38) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9235ms (View: 110, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:16:11) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11984ms (View: 93, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:19:19) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8438ms (View: 266, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:19:36) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 10938ms (View: 31, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:19:56) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 15125ms (View: 62, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:21:05) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #50 of app/views/board/index.html.haml:
+47: </script>
+48: <script type="text/javascript">
+49: UserVoice.Tab.show({ 
+50:   /* required */
+51:   key: 'twends',
+52:   host: 'twends.uservoice.com', 
+53:   forum: '29677', 
+
+    app/views/board/index.html.haml:50
+    haml (2.2.4) lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (468.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:22:00) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #51 of app/views/board/index.html.haml:
+48: %script{:type => "text/javascript"} 
+49:   :plain
+50: UserVoice.Tab.show({ 
+51:   /* required */
+52:   key: 'twends',
+53:   host: 'twends.uservoice.com', 
+54:   forum: '29677', 
+
+    app/views/board/index.html.haml:51
+    haml (2.2.4) lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (515.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:22:33) [GET]
+  Parameters: {"trends"=>"week"}
+Rendering board/index
+Completed in 8937ms (View: 62, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:22:46) [GET]
+  Parameters: {"trends"=>"minute"}
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:23:16) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #51 of app/views/board/index.html.haml:
+48: %script{:type => "text/javascript"} 
+49:   :plain
+50:   UserVoice.Tab.show({ 
+51:     /* required */
+52:     key: 'twends',
+53:     host: 'twends.uservoice.com', 
+54:     forum: '29677', 
+
+    app/views/board/index.html.haml:51
+    haml (2.2.4) lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (438.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:24:07) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7813ms (View: 63, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:24:25) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8297ms (View: 250, DB: 0) | 200 OK [http://localhost/board?trends=minute]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:24:35) [GET]
+  Parameters: {"trends"=>"day"}
+Rendering board/index
+Completed in 9797ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:24:50) [GET]
+  Parameters: {"trends"=>"week"}

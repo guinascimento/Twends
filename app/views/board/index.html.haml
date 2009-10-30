@@ -1,0 +1,75 @@
+= stylesheet_link_tag 'caption', 'main'
+= javascript_include_tag 'jquery', 'jcaption.min'
+
+%title Twends
+
+%script{:type => "text/javascript"} 
+  :plain
+    $(document).ready(function() {
+        $("span").hover(
+          function () {
+            $(this).find("#link").fadeIn("slow");
+            $(this).find("#share").fadeIn("slow");
+          }, 
+          function () {
+             $(this).find("#link").fadeOut("slow");
+             $(this).find("#share").fadeOut("slow");
+          }
+        );
+    });
+
+%body
+  %div{:id => "content"}
+    %div{:id => "logo"}
+      %h1 Discover what's happening in the world in pics (with <a href="http://www.twitter.com" id="link">Twiter</a> trends and <a href="http://www.flickr.com" id="link">Flickr</a> photos)
+    %div{:id => "banner"}
+      %div{:id => "contentleft"}
+        %div{:id => "options"}
+          = link_to "Minute", :action => "index", :trends => "minute"
+          |
+          = link_to "Day", :action => "index", :trends => "day"
+          |
+          = link_to "Week", :action => "index", :trends => "week"
+        %div{:id => "main", :class => "image"}
+          - @photos.each do |text, photos|
+            - photos.each do |p|
+              %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+                %span{:class => "link", :id => "link"}
+                  = text
+                %span{:class => "share", :id => "share"}
+                  %a{:href => "http://search.twitter.com/search?q=#{text}"}
+                    %img{:src => "/images/twitter.png"}
+                  %a{:href => "http://www.flickr.com/search/?w=all&q=#{text}"}
+                    %img{:src => "/images/flickr.png"}
+                    
+  %script{:type => "text/javascript"} 
+    :plain
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+  %script{:type => "text/javascript"} 
+    :plain
+      try {
+        var pageTracker = _gat._getTracker("UA-11343959-1");
+        pageTracker._trackPageview();
+      } catch(err) {}
+                    
+  %script{:type => "text/javascript"} 
+    :plain
+      var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+      document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+
+  %script{:type => "text/javascript"} 
+    :plain
+      UserVoice.Tab.show({ 
+        /* required */
+        key: 'twends',
+        host: 'twends.uservoice.com', 
+        forum: '29677', 
+        /* optional */
+        alignment: 'left',
+        background_color:'#f00', 
+        text_color: 'white',
+        hover_color: '#06C',
+        lang: 'en'
+      })
