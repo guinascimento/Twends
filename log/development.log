@@ -2247,3 +2247,435 @@ Completed in 9797ms (View: 16, DB: 0) | 200 OK [http://localhost/board?trends=da
 
 Processing BoardController#index (for 127.0.0.1 at 2009-10-28 14:24:50) [GET]
   Parameters: {"trends"=>"week"}
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:56:14) [GET]
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Rendering board/index
+Cached fragment miss: views/localhost:3000/board (0.0ms)
+Completed in 2766ms (View: 63, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:56:21) [GET]
+  Parameters: {"trends"=>"minute"}
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Rendering board/index
+Cached fragment miss: views/localhost:3000/index (0.0ms)
+Completed in 10360ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:56:49) [GET]
+  Parameters: {"trends"=>"day"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x45f17bc @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45f1668 @kind=:filter, @identifier=nil, @options={:only=>#<Set: {"index"}>, :if=>nil, :unless=>nil}, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x45f17bc @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:56:51) [GET]
+  Parameters: {"trends"=>"day"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x48d931c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48d91c8 @kind=:filter, @identifier=nil, @options={:only=>#<Set: {"index"}>, :if=>nil, :unless=>nil}, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x48d931c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:56:53) [GET]
+  Parameters: {"trends"=>"minute"}
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x48ae2fc @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48ae1a8 @kind=:filter, @identifier=nil, @options={:only=>#<Set: {"index"}>, :if=>nil, :unless=>nil}, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x48ae2fc @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:56:55) [GET]
+  Parameters: {"trends"=>"week"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x487b2a8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x487b154 @kind=:filter, @identifier=nil, @options={:only=>#<Set: {"index"}>, :if=>nil, :unless=>nil}, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x487b2a8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=week]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:56:56) [GET]
+  Parameters: {"trends"=>"day"}
+Cached fragment hit: views/localhost:3000/board (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x484db8c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x484da38 @kind=:filter, @identifier=nil, @options={:only=>#<Set: {"index"}>, :if=>nil, :unless=>nil}, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x484db8c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 47ms (View: 0, DB: 0) | 200 OK [http://localhost/board?trends=day]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:56:56) [GET]
+  Parameters: {"trends"=>"minute"}
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x48198c8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4819580 @kind=:filter, @identifier=nil, @options={:only=>#<Set: {"index"}>, :if=>nil, :unless=>nil}, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x48198c8 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:59:14) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7953ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 11:59:35) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9093ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:00:35) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9703ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:01:52) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 12719ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:02:21) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11547ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:02:40) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7843ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-31 12:02:48) [GET]
+  Parameters: {"callback"=>"mpmetrics.jsonp_callback", "ip"=>"1", "_"=>"1256997762782", "data"=>"eyJldmVudCI6ICJtcF9mdW5uZWwiLCJwcm9wZXJ0aWVzIjogeyJmdW5uZWwiOiAidGFiX2NsaWNrX2NvbnZlcnNpb24iLCJzdGVwIjogMiwiZ29hbCI6ICJUYWIgSG92ZXIiLCJ0aW1lIjogMTI1Njk5Nzc2Mn19"}
+
+ActionController::RoutingError (No route matches "/undefined/track/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:03:08) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7984ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:03:45) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8922ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:04:25) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9250ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:04:54) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8219ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:05:42) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11485ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:06:05) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8734ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:06:37) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9828ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:18:00) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+
+ActionView::TemplateError (Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #24 of app/views/board/index.html.haml:
+21: %body
+22:   %div{:id => "content"}
+23:     %div{:id => "logo"}
+24:      %a{:href => "http://twitter.com/" :title => "Twends"}
+25:           %img{:alt =>"Twends" :src => "/images/logo.png"}
+26:       %h1 Discover what's happening in the world in pics (with <a href="http://www.twitter.com" id="link">Twiter</a> trends and <a href="http://www.flickr.com" id="link">Flickr</a> photos)
+27:     %div{:id => "banner"}
+
+    app/views/board/index.html.haml:24
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:18:32) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+
+ActionView::TemplateError (Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #24 of app/views/board/index.html.haml:
+21: %body
+22:   %div{:id => "content"}
+23:     %div{:id => "logo"}
+24:      %a{:href => "http://twitter.com/", :title => "Twends"}
+25:           %img{:alt =>"Twends", :src => "/images/logo.png"}
+26:       %h1 Discover what's happening in the world in pics (with <a href="http://www.twitter.com" id="link">Twiter</a> trends and <a href="http://www.flickr.com" id="link">Flickr</a> photos)
+27:     %div{:id => "banner"}
+
+    app/views/board/index.html.haml:24
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:19:14) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+
+ActionView::TemplateError (Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #24 of app/views/board/index.html.haml:
+21: %body
+22:   %div{:id => "content"}
+23:     %div{:id => "logo"}
+24:      %a{:href => "http://twitter.com/", :title => "Twends"}
+25:         %img{:alt =>"Twends", :src => "/images/logo.png"}
+26:       %h1 Discover what's happening in the world in pics (with <a href="http://www.twitter.com" id="link">Twiter</a> trends and <a href="http://www.flickr.com" id="link">Flickr</a> photos)
+27:     %div{:id => "banner"}
+
+    app/views/board/index.html.haml:24
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:19:37) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+
+ActionView::TemplateError (Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #24 of app/views/board/index.html.haml:
+21: %body
+22:   %div{:id => "content"}
+23:     %div{:id => "logo"}
+24:      %a{:href => "http://twitter.com/", :title => "Twends"}
+25:       %h1 Discover what's happening in the world in pics (with <a href="http://www.twitter.com" id="link">Twiter</a> trends and <a href="http://www.flickr.com" id="link">Flickr</a> photos)
+26:     %div{:id => "banner"}
+27:       %div{:id => "contentleft"}
+
+    app/views/board/index.html.haml:24
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:19:54) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+
+ActionView::TemplateError (Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #24 of app/views/board/index.html.haml:
+21: %body
+22:   %div{:id => "content"}
+23:     %div{:id => "logo"}
+24:      %a{:href => "http://twitter.com/", :title => "Twends"}
+25:       %h1 Discover what's happening in the world in pics (with <a href="http://www.twitter.com" id="link">Twiter</a> trends and <a href="http://www.flickr.com" id="link">Flickr</a> photos)
+26:     %div{:id => "banner"}
+27:       %div{:id => "contentleft"}
+
+    app/views/board/index.html.haml:24
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:20:10) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8657ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:20:33) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 11187ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:21:08) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7734ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:21:33) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8657ms (View: 110, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:21:51) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 8797ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:22:16) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 9891ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:22:46) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7813ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:23:09) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 7437ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-31 12:23:24) [GET]
+  Parameters: {"callback"=>"mpmetrics.jsonp_callback", "ip"=>"1", "_"=>"1256999004488", "data"=>"eyJldmVudCI6ICJtcF9mdW5uZWwiLCJwcm9wZXJ0aWVzIjogeyJmdW5uZWwiOiAidGFiX2NsaWNrX2NvbnZlcnNpb24iLCJzdGVwIjogMiwiZ29hbCI6ICJUYWIgSG92ZXIiLCJ0aW1lIjogMTI1Njk5OTAwNH19"}
+
+ActionController::RoutingError (No route matches "/undefined/track/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-31 12:23:25) [GET]
+  Parameters: {"callback"=>"mpmetrics.jsonp_callback", "ip"=>"1", "_"=>"1256999005218", "data"=>"eyJldmVudCI6ICJtcF9mdW5uZWwiLCJwcm9wZXJ0aWVzIjogeyJmdW5uZWwiOiAidGFiX2NsaWNrX2NvbnZlcnNpb24iLCJzdGVwIjogMiwiZ29hbCI6ICJUYWIgQ2xpY2siLCJ0aW1lIjogMTI1Njk5OTAwNX19"}
+
+ActionController::RoutingError (No route matches "/undefined/track/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:23:47) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering board/index
+Completed in 12750ms (View: 250, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-31 12:23:59) [GET]
+  Parameters: {"callback"=>"mpmetrics.jsonp_callback", "ip"=>"1", "_"=>"1256999031231", "data"=>"eyJldmVudCI6ICJtcF9mdW5uZWwiLCJwcm9wZXJ0aWVzIjogeyJmdW5uZWwiOiAidGFiX2NsaWNrX2NvbnZlcnNpb24iLCJzdGVwIjogMiwiZ29hbCI6ICJUYWIgSG92ZXIiLCJ0aW1lIjogMTI1Njk5OTAzMX19"}
+
+ActionController::RoutingError (No route matches "/undefined/track/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:28:34) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering template within layouts/application
+Rendering board/index
+Completed in 16516ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:29:24) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering template within layouts/application
+Rendering board/index
+Completed in 7656ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:29:42) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering template within layouts/application
+Rendering board/index
+Completed in 8313ms (View: 407, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:30:43) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering template within layouts/application
+Rendering board/index
+Completed in 7531ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:32:39) [GET]
+Rendering template within layouts/application
+Rendering board/index
+Completed in 2531ms (View: 94, DB: 0) | 200 OK [http://localhost/board]
+
+
+Processing BoardController#index (for 127.0.0.1 at 2009-10-31 12:32:47) [GET]
+  Parameters: {"trends"=>"minute"}
+Rendering template within layouts/application
+Rendering board/index
+Completed in 7860ms (View: 16, DB: 0) | 200 OK [http://localhost/]

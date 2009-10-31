@@ -1,6 +1,7 @@
 require 'Flickr'
 
 class BoardController < ApplicationController
+	layout "application"
 
 	def index
 		minute = Twitter::Trends.current
