@@ -1,4 +1,5 @@
 require 'Flickr'
+require 'Twitter'
 
 class BoardController < ApplicationController
 
