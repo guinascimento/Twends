@@ -13785,3 +13785,60 @@ Completed in 6453ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
 Processing TrendsController#week (for 127.0.0.1 at 2009-12-01 10:51:34) [GET]
 Rendering trends/index
 Completed in 9375ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-01 11:03:25) [GET]
+Rendering trends/index
+Completed in 8718ms (View: 453, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-01 11:04:26) [GET]
+Rendering trends/index
+Completed in 5937ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-01 11:04:43) [GET]
+Rendering trends/index
+Completed in 6922ms (View: 15, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 11:04:54) [GET]
+
+ArgumentError (ArgumentError):
+  app/controllers/trends_controller.rb:5:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 11:04:57) [GET]
+
+ArgumentError (ArgumentError):
+  app/controllers/trends_controller.rb:8:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
