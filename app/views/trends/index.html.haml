@@ -1,25 +1,3 @@
-= stylesheet_link_tag 'caption', 'main'
-= javascript_include_tag 'jquery'
-
-%title Twends
-%meta{:name => "description", :content => "Discover what's happening in the world in pics (with Twiter trends and Flickr photos)"}
-%meta{:name => "keywords", :content => "flickr, twitter, trends, twitter trends, twends, world photos"}
-
-%script{:type => "text/javascript"} 
-  :plain
-    $(document).ready(function() {
-      $("span").hover(
-        function () {
-          $(this).find("#link").fadeIn("slow");
-          $(this).find("#share").fadeIn("slow");
-        }, 
-        function () {
-           $(this).find("#link").fadeOut("slow");
-           $(this).find("#share").fadeOut("slow");
-        }
-      );
-    });
-
 %body
   %div{:id => "content"}
     %div{:id => "logo"}
@@ -45,35 +23,3 @@
                     %img{:src => "/images/flickr.png"}
     %div{:id => "footer"}
       Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
-
-  %script{:type => "text/javascript"} 
-    :plain
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-
-  %script{:type => "text/javascript"} 
-    :plain
-      try {
-        var pageTracker = _gat._getTracker("UA-11343959-1");
-        pageTracker._trackPageview();
-      } catch(err) {}
-                    
-  %script{:type => "text/javascript"} 
-    :plain
-      var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
-      document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
-
-  %script{:type => "text/javascript"} 
-    :plain
-      UserVoice.Tab.show({ 
-        /* required */
-        key: 'twends',
-        host: 'twends.uservoice.com', 
-        forum: '29677', 
-        /* optional */
-        alignment: 'left',
-        background_color:'#006E2E', 
-        text_color: 'white',
-        hover_color: '#008C00',
-        lang: 'en'
-      })

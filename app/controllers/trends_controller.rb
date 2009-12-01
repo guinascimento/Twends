@@ -1,6 +1,8 @@
 require 'Flickr'
 
 class TrendsController < ApplicationController
+	layout "application"
+
 	def minute
 		minute = Twitter::Trends.current
 		@photos = {}

@@ -13842,3 +13842,116 @@ ArgumentError (ArgumentError):
 Rendered rescues/_trace (78.0ms)
 Rendered rescues/_request_and_response (0.0ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:00:07) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 23297ms (View: 203, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:00:52) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 23922ms (View: 62, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:01:17) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 19781ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:02:35) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 17828ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:02:53) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 18797ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:05:02) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 24515ms (View: 750, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:08:54) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8360ms (View: 78, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:12:05) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8844ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:12:56) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7282ms (View: 297, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:14:01) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7422ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 13:14:08) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jcaption.min" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:14:46) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9094ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:15:01) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7546ms (View: 93, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:15:19) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9953ms (View: 46, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:15:37) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8328ms (View: 63, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:15:55) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11125ms (View: 344, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 13:16:54) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 14469ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
