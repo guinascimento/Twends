@@ -27,11 +27,11 @@
     %div{:id => "banner"}
       %div{:id => "contentleft"}
         %div{:id => "options"}
-          = link_to "Minute", :action => "minute"
+          = link_to "Minute", { :action => "minute" }, :class => is_active?("minute")
           |
-          = link_to "Day", :action => "day"
+          = link_to "Day", { :action => "day" }, :class => is_active?("day")
           |
-          = link_to "Week", :action => "week"
+          = link_to "Week", { :action => "week" }, :class => is_active?("week")
         %div{:id => "main", :class => "image"}
           - @photos.each do |text, photos|
             - photos.each do |p|

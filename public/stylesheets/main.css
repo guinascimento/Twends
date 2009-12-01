@@ -137,3 +137,8 @@ a:hover {
 	padding-left:69px;
 	padding-top:480px;
 }
+
+.current {
+	color: #006E2E;
+	font-weight: bold;
+}

@@ -13730,3 +13730,58 @@ Completed in 10344ms (View: 62, DB: 0) | 200 OK [http://localhost/]
 Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 10:39:16) [GET]
 Rendering trends/index
 Completed in 6282ms (View: 32, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 10:47:38) [GET]
+Rendering trends/index
+Completed in 9329ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 10:47:57) [GET]
+Rendering trends/index
+Completed in 8110ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 10:48:27) [GET]
+Rendering trends/index
+Completed in 9141ms (View: 125, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 10:48:56) [GET]
+Rendering trends/index
+Completed in 8219ms (View: 78, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 10:49:17) [GET]
+Rendering trends/index
+Completed in 6156ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 10:49:40) [GET]
+Rendering trends/index
+Completed in 6265ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 10:50:01) [GET]
+Rendering trends/index
+Completed in 6344ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 10:50:10) [GET]
+Rendering trends/index
+Completed in 6375ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 10:51:13) [GET]
+Rendering trends/index
+Completed in 6953ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 10:51:25) [GET]
+Rendering trends/index
+Completed in 6453ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-01 10:51:34) [GET]
+Rendering trends/index
+Completed in 9375ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/week]
