@@ -14762,3 +14762,194 @@ Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 15:02:38) [GET]
 Rendering template within layouts/application
 Rendering trends/index
 Completed in 10594ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing ApplicationController#minute (for 127.0.0.1 at 2009-12-01 15:08:04) [GET]
+
+SyntaxError (c:/RailsProjects/twends/lib/Flickr.rb:8: syntax error, unexpected '(', expecting ')'
+	def Flickr.search(clean(text))
+	                        ^
+c:/RailsProjects/twends/lib/Flickr.rb:35: syntax error, unexpected kEND, expecting $end):
+  app/controllers/trends_controller.rb:1
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:08:23) [GET]
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=World AIDS Day&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (391.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:08:33) [GET]
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=World AIDS Day&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:08:40) [GET]
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=World AIDS Day&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (594.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:08:53) [GET]
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=World AIDS Day&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:08:58) [GET]
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=World AIDS Day&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:09:20) [GET]
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=1&tags=World AIDS Day&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:09:59) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 13906ms (View: 500, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:10:24) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 14562ms (View: 187, DB: 0) | 200 OK [http://localhost/trends/minute]
