@@ -13955,3 +13955,290 @@ Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 13:16:54) [GET]
 Rendering template within layouts/application
 Rendering trends/index
 Completed in 14469ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:56:13) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10703ms (View: 406, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:57:12) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8594ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:58:31) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9219ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 13:58:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9547ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:03:30) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9296ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:04:17) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9969ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:06:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10125ms (View: 109, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:07:58) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8531ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:08:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7734ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:09:05) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (undefined method `/' for "current":String) on line #12 of app/views/trends/index.html.haml:
+9:           |
+10:           = link_to "Day", { :action => "day" }, :class => is_active?("day")
+11:           |
+12:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+13:         .image{:id => "main"}
+14:           - @photos.each do |text, photos|
+15:             - photos.each do |p|
+
+    app/views/trends/index.html.haml:12:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:17:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:10:41) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %span and nested within it.) on line #18 of app/views/trends/index.html.haml:
+15:             - photos.each do |p|
+16:               %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+17:                 %span#link .link
+18:                   = text
+19:                 %span{:class => "share", :id => "share"}
+20:                   %a{:href => "http://search.twitter.com/search?q=#{text}"}
+21:                     %img{:src => "/images/twitter.png"}
+
+    app/views/trends/index.html.haml:18
+    haml (2.2.4) lib/haml/precompiler.rb:701:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:17:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (188.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:11:11) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9312ms (View: 156, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:11:34) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10375ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:12:17) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %span and nested within it.) on line #19 of app/views/trends/index.html.haml:
+16:               %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+17:                 
+18:                 %span #link .link
+19:                   = text
+20:                 %span{:class => "share", :id => "share"}
+21:                   %a{:href => "http://search.twitter.com/search?q=#{text}"}
+22:                     %img{:src => "/images/twitter.png"}
+
+    app/views/trends/index.html.haml:19
+    haml (2.2.4) lib/haml/precompiler.rb:701:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:17:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:12:50) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8875ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:13:42) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9250ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:15:51) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8516ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:16:21) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8031ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:17:05) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9812ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:31:06) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8828ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:31:31) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %div and nested within it.) on line #14 of app/views/trends/index.html.haml:
+11:           |
+12:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+13:         .image{:id => "main"}ss
+14:           - @photos.each do |text, photos|
+15:             - photos.each do |p|
+16:               %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+17:                 %span#link.link
+
+    app/views/trends/index.html.haml:14
+    haml (2.2.4) lib/haml/precompiler.rb:701:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:200:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:17:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:32:41) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 25360ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:38:10) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11109ms (View: 265, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:39:23) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12031ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:40:02) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9578ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 14:41:11) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11579ms (View: 188, DB: 0) | 200 OK [http://localhost/]

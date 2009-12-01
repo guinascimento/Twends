@@ -1,25 +1,23 @@
 %body
-  %div{:id => "content"}
-    %div{:id => "logo"}
+  #content
+    #logo
       %h1 Discover what's happening in the world in pics (with <a href="http://www.twitter.com" id="twitter">Twiter</a> trends and <a href="http://www.flickr.com" id="flickr">Flickr</a> photos)
-    %div{:id => "banner"}
-      %div{:id => "contentleft"}
-        %div{:id => "options"}
+    #banner
+      #contentleft
+        #options
           = link_to "Minute", { :action => "minute" }, :class => is_active?("minute")
           |
           = link_to "Day", { :action => "day" }, :class => is_active?("day")
           |
           = link_to "Week", { :action => "week" }, :class => is_active?("week")
-        %div{:id => "main", :class => "image"}
+        #main.image
           - @photos.each do |text, photos|
             - photos.each do |p|
               %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
-                %span{:class => "link", :id => "link"}
+                %span#link.link
                   = text
-                %span{:class => "share", :id => "share"}
-                  %a{:href => "http://search.twitter.com/search?q=#{text}"}
-                    %img{:src => "/images/twitter.png"}
-                  %a{:href => "http://www.flickr.com/search/?w=all&q=#{text}"}
-                    %img{:src => "/images/flickr.png"}
-    %div{:id => "footer"}
+                %span#share.share
+                  = link_to image_tag("twitter.png"), "http://search.twitter.com/search?q=#{text}"
+                  = link_to image_tag("flickr.png"), "http://www.flickr.com/search/?w=all&q=#{text}"
+    #footer
       Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
