@@ -5,7 +5,8 @@ class TrendsController < ApplicationController
 		minute = Twitter::Trends.current
 		@photos = {}
 		total = 0
-
+		name = ""
+		name.size
 		for trend in minute do
 			total += 1
 			@photos[trend.name] = Flickr.search(trend.name)
