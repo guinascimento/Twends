@@ -14953,3 +14953,2836 @@ Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:10:24) [GET]
 Rendering template within layouts/application
 Rendering trends/index
 Completed in 14562ms (View: 187, DB: 0) | 200 OK [http://localhost/trends/minute]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:22:14) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (No route matches {:action=>"day"}) on line #12 of app/views/trends/index.html.haml:
+9:           |
+10:           = link_to "Day", { :action => "day" }, :class => is_active?("day")
+11:           |
+12:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+13:         #main.image
+14:           - @photos.each do |text, photos|
+15:             - photos.each do |p|
+
+    app/views/trends/index.html.haml:12:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:17:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (407.0ms)
+Rendered rescues/_request_and_response (31.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:24:10) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10641ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:24:28) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9641ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 15:24:58) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 16093ms (View: 15, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:25:19) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 19219ms (View: 141, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:25:45) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (No route matches {:action=>"day"}) on line #12 of app/views/trends/index.html.haml:
+9:           |
+10:           = link_to "Day", { :action => "day" }, :class => is_active?("day")
+11:           |
+12:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+13:         #main.image
+14:           - @photos.each do |text, photos|
+15:             - photos.each do |p|
+
+    app/views/trends/index.html.haml:12:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:17:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:26:14) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 21734ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 15:26:42) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12078ms (View: 94, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 15:27:24) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 16328ms (View: 93, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:31:26) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+NoMethodError (undefined method `redner' for #<TrendsController:0x4802600>):
+  app/controllers/trends_controller.rb:50:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:31:32) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:32:13) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.) on line #3 of app/views/trends/tweets.html.haml:
+1: %body
+2:   #content
+3: 	#logo
+4: 	  %h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+5: 	#banner
+6: 		#main.image
+
+    app/views/trends/tweets.html.haml:3
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:203:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (171.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:33:25) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.) on line #3 of app/views/trends/tweets.html.haml:
+1: %body
+2:   #content
+3: 	#logo
+4: 	  %h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+5: 	#banner
+6: 		#main.image
+
+    app/views/trends/tweets.html.haml:3
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:203:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:34:03) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: 2 tabs were used for indentation, but the rest of the document was indented using 2 spaces.) on line #3 of app/views/trends/tweets.html.haml:
+1: %body
+2:   #content
+3: 		#logo
+4: 	  	%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+5: 		#banner
+6: 			#main.image
+
+    app/views/trends/tweets.html.haml:3
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:203:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (204.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:34:17) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: 2 tabs were used for indentation, but the rest of the document was indented using 2 spaces.) on line #3 of app/views/trends/tweets.html.haml:
+1: %body
+2:   #content
+3: 		#logo
+4: 	  	%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+5: 		#banner
+6: 			#main.image
+
+    app/views/trends/tweets.html.haml:3
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:203:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:34:25) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: 2 tabs were used for indentation, but the rest of the document was indented using 2 spaces.) on line #3 of app/views/trends/tweets.html.haml:
+1: %body
+2:   #content
+3: 		#logo
+4: 	  	%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+5: 		#banner
+6: 			#main.image
+
+    app/views/trends/tweets.html.haml:3
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:203:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (375.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:34:48) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: "\t  \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #4 of app/views/trends/tweets.html.haml:
+1: %body
+2: 	#content
+3: 		#logo
+4: 	  	%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+5: 		#banner
+6: 			#main.image
+7: 		  	aa
+
+    app/views/trends/tweets.html.haml:4
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:203:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (343.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:35:00) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: "\t  \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #4 of app/views/trends/tweets.html.haml:
+1: %body
+2: 	#content
+3: 		#logo
+4: 	  	%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+5: 	#footer
+6: 	  Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:4
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:203:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:35:09) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: "\t  \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #4 of app/views/trends/tweets.html.haml:
+1: %body
+2: 	#content
+3: 		#logo
+4: 	  	%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+
+    app/views/trends/tweets.html.haml:4
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:765:in `render_div'
+    haml (2.2.4) lib/haml/precompiler.rb:203:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (266.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:35:18) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 187ms (View: 187, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:35:35) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (The line was indented 2 levels deeper than the previous line.) on line #4 of app/views/trends/tweets.html.haml:
+1: %body
+2: 	#content
+3: 	#logo
+4: 			%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)
+
+    app/views/trends/tweets.html.haml:4
+    haml (2.2.4) lib/haml/precompiler.rb:171:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:35:48) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 203ms (View: 203, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:36:14) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:45:08) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:47:24) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:47:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:48:49) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:48:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:48:57) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:48:58) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:49:06) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:49:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:49:46) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:49:46) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:49:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:50:00) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:50:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:50:34) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:50:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:52:50) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Inconsistent indentation: "\t\t\t\t " was used for indentation, but the rest of the document was indented using 1 tab.) on line #10 of app/views/trends/tweets.html.haml:
+7: 				.interviewee
+8: 					%p
+9: 						Nam condimentum. Cras eros nisl, congue sed, porttitor ac, ultrices eu, erat. Cras facilisis odio sed metus. Nullam gravida lectus eget elit. Pellentesque non nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Aenean eleifend magna. Integer elementum eros non eros. Sed libero purus, blandit in, fermentum id, vestibulum at, nisi. Vivamus et purus. Nullam sollicitudin libero et felis.
+10: 				 .interviewee-ico
+11: 					%img{:src => "images/interviewee.png"}
+12: </div>
+
+    app/views/trends/tweets.html.haml:10
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:311:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (547.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:53:21) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 125ms (View: 94, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:53:22) [GET]
+
+ActionController::RoutingError (No route matches "/trends/images/interviewee.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:53:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:53:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/interviewee-balloon.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:55:56) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-01 15:55:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/glow.png" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 15:59:56) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:01:20) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (undefined local variable or method `tweets' for #<ActionView::Base:0x4827c98>) on line #8 of app/views/trends/tweets.html.haml:
+5: 		#banner
+6: 			#contentleft
+7: 				%ul#listticker
+8: 					- tweets.each do |t|
+9: 						%li
+10: 							%img{:src => ""}
+11: 							t.text
+
+    app/views/trends/tweets.html.haml:8:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (437.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:01:37) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3016ms (View: 3016, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:04:23) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5250ms (View: 5250, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:07:23) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4219ms (View: 4219, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:10:29) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3187ms (View: 78, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:10:46) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1547ms (View: 250, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:11:08) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2625ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:13:25) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #8 of app/views/trends/tweets.html.haml:
+5: 		#banner
+6: 			#contentleft
+7: 				%ul#listticker
+8: 					- @tweets.each do |t|
+9: 						%li
+10: 							%img{:src => ""}
+11: 							t
+
+    app/views/trends/tweets.html.haml:8:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:51:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:15:58) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #8 of app/views/trends/tweets.html.haml:
+5: 		#banner
+6: 			#contentleft
+7: 				%ul#listticker
+8: 					- @tweets.each do |t|
+9: 						%li
+10: 							%img{:src => ""}
+11: 							t.text
+
+    app/views/trends/tweets.html.haml:8:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:51:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:20:30) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 9406ms (View: 9406, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:27:21) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #8 of app/views/trends/tweets.html.haml:
+5: 		#banner
+6: 			#contentleft
+7: 				%ul#listticker
+8: 					- @tweets.each do |t|
+9: 						%li
+10: 							%img{:src => ""}
+11: 							t.text
+
+    app/views/trends/tweets.html.haml:8:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:55:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:27:48) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1641ms (View: 1641, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:28:02) [GET]
+  Parameters: {"trend"=>"ruby"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5063ms (View: 5063, DB: 0) | 200 OK [http://localhost/trends/ruby]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:28:46) [GET]
+  Parameters: {"trend"=>"ruby"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4797ms (View: 4781, DB: 0) | 200 OK [http://localhost/trends/ruby]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:29:09) [GET]
+  Parameters: {"trend"=>"ruby"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1562ms (View: 1562, DB: 0) | 200 OK [http://localhost/trends/ruby]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:29:34) [GET]
+  Parameters: {"trend"=>"ruby"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2422ms (View: 2422, DB: 0) | 200 OK [http://localhost/trends/ruby]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:29:38) [GET]
+  Parameters: {"trend"=>"ruby"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 797ms (View: 797, DB: 0) | 200 OK [http://localhost/trends/ruby]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:29:54) [GET]
+  Parameters: {"trend"=>"ruby"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2000ms (View: 1985, DB: 0) | 200 OK [http://localhost/trends/ruby]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:30:01) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4328ms (View: 4328, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:30:06) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1484ms (View: 1484, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:30:08) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1250ms (View: 1250, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:30:28) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+NoMethodError (undefined method `size' for #<Twitter::Search:0x4729648>):
+  app/controllers/trends_controller.rb:50:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (188.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:30:40) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+NoMethodError (undefined method `length' for #<Twitter::Search:0x4662d54>):
+  app/controllers/trends_controller.rb:50:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:31:07) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+LocalJumpError (no block given):
+  twitter (0.6.15) lib/twitter/search.rb:108:in `each'
+  twitter (0.6.15) lib/twitter/search.rb:108:in `each'
+  app/controllers/trends_controller.rb:50:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:31:17) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+NoMethodError (undefined method `size' for #<Twitter::Search:0x46f85e8>):
+  app/controllers/trends_controller.rb:50:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (453.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:32:08) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6766ms (View: 6766, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:33:14) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4235ms (View: 4219, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:34:38) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2390ms (View: 2375, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:35:10) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3282ms (View: 3282, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:35:22) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5516ms (View: 5516, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:35:43) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2766ms (View: 2750, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:39:04) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (Unbalanced brackets.) on line #10 of app/views/trends/tweets.html.haml:
+7: 				%ul#listticker
+8: 					- @tweets.each do |t|
+9: 						%li
+10: 							%img{:src => "http://s.twimg.com/a/1259091217/images/default_profile_3_bigger.png"
+11: 							= t.text
+
+    app/views/trends/tweets.html.haml:10
+    haml (2.2.4) lib/haml/precompiler.rb:940:in `balance'
+    haml (2.2.4) lib/haml/precompiler.rb:551:in `parse_old_attributes'
+    haml (2.2.4) lib/haml/precompiler.rb:521:in `parse_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:641:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (297.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:39:27) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2281ms (View: 2281, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:40:13) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 782ms (View: 766, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:40:41) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5203ms (View: 5187, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:41:33) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1922ms (View: 1907, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:42:32) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6188ms (View: 6188, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:43:06) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1063ms (View: 1063, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:43:24) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4125ms (View: 4125, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:44:03) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1547ms (View: 1547, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:44:19) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1656ms (View: 1641, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:45:18) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+ERROR: compiling _run_haml_app47views47trends47tweets46html46haml RAISED compile error
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:13: syntax error, unexpected $undefined
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ #{t.from_user} #{time_ago_in_words(t.created_at)}
+                                                                                                                                                                                  ^
+Function body:           def _run_haml_app47views47trends47tweets46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :format=>:xhtml, :preserve=>["textarea", "pre"], :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+_hamlout.push_text("<body>\n  <div id='content'>\n    <div id='logo'>\n      <h1>#{_hamlout.adjust_tabs(4); haml_temp = "Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</h1>\n    </div>\n    <div id='banner'>\n      <div id='contentleft'>\n        <ul id='listticker'>\n", 2, false); @tweets.each do |t|;
+
+
+
+_hamlout.push_text("          <li>\n            <img class='avatar' src='http://s.twimg.com/a/1259091217/images/default_profile_3_bigger.png' />\n            #{_hamlout.adjust_tabs(1); haml_temp =  t.text
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ #{t.from_user} #{time_ago_in_words(t.created_at)}
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n          </li>\n", -1, false);end;_hamlout.push_text("        </ul>\n      </div>\n    </div>\n  </div>\n</body>\n", -5, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/RailsProjects/twends/app/views/trends/tweets.html.haml:17:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:50:in `trend_tweets'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:13: syntax error, unexpected $undefined
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ #{t.from_user} #{time_ago_in_words(t.created_at)}
+                                                                                                                                                                                  ^) on line #13 of app/views/trends/tweets.html.haml:
+10: 							%img{:src => "http://s.twimg.com/a/1259091217/images/default_profile_3_bigger.png", :class => "avatar"}
+11: 							= t.text
+12: 							%br
+13: 							= @ #{t.from_user} #{time_ago_in_words(t.created_at)}
+
+    app/views/trends/tweets.html.haml:17:in `compile!'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:45:30) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1281ms (View: 1281, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:45:42) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1359ms (View: 1343, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:45:57) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1688ms (View: 1688, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:46:06) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+ERROR: compiling _run_haml_app47views47trends47tweets46html46haml RAISED compile error
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:13: syntax error, unexpected $undefined
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ t.from_user
+                                                                                                                                                                                  ^
+Function body:           def _run_haml_app47views47trends47tweets46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :format=>:xhtml, :preserve=>["textarea", "pre"], :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+_hamlout.push_text("<body>\n  <div id='content'>\n    <div id='logo'>\n      <h1>#{_hamlout.adjust_tabs(4); haml_temp = "Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</h1>\n    </div>\n    <div id='banner'>\n      <div id='contentleft'>\n        <ul id='listticker'>\n", 2, false); @tweets.each do |t|;
+
+
+
+_hamlout.push_text("          <li>\n            <img class='avatar' src='http://s.twimg.com/a/1259091217/images/default_profile_3_bigger.png' />\n            #{_hamlout.adjust_tabs(1); haml_temp =  t.text
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ t.from_user
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            #{haml_temp =  time_ago_in_words(t.created_at)
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n          </li>\n", -1, false);end;_hamlout.push_text("        </ul>\n      </div>\n    </div>\n  </div>\n</body>\n", -5, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/RailsProjects/twends/app/views/trends/tweets.html.haml:18:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:50:in `trend_tweets'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:13: syntax error, unexpected $undefined
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ t.from_user
+                                                                                                                                                                                  ^) on line #13 of app/views/trends/tweets.html.haml:
+10: 							%img{:src => "http://s.twimg.com/a/1259091217/images/default_profile_3_bigger.png", :class => "avatar"}
+11: 							= t.text
+12: 							%br
+13: 							= @ t.from_user
+14: 							= time_ago_in_words(t.created_at)
+
+    app/views/trends/tweets.html.haml:18:in `compile!'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:46:12) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+ERROR: compiling _run_haml_app47views47trends47tweets46html46haml RAISED compile error
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:13: syntax error, unexpected $undefined
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ #{t.from_user}
+                                                                                                                                                                                  ^
+Function body:           def _run_haml_app47views47trends47tweets46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :encoding=>nil, :format=>:xhtml, :preserve=>["textarea", "pre"], :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+_hamlout.push_text("<body>\n  <div id='content'>\n    <div id='logo'>\n      <h1>#{_hamlout.adjust_tabs(4); haml_temp = "Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Twitter", "http://www.flickr.com", :id => "flickr"} photos)"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</h1>\n    </div>\n    <div id='banner'>\n      <div id='contentleft'>\n        <ul id='listticker'>\n", 2, false); @tweets.each do |t|;
+
+
+
+_hamlout.push_text("          <li>\n            <img class='avatar' src='http://s.twimg.com/a/1259091217/images/default_profile_3_bigger.png' />\n            #{_hamlout.adjust_tabs(1); haml_temp =  t.text
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ #{t.from_user}
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            #{haml_temp =  time_ago_in_words(t.created_at)
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n          </li>\n", -1, false);end;_hamlout.push_text("        </ul>\n      </div>\n    </div>\n  </div>\n</body>\n", -5, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/RailsProjects/twends/app/views/trends/tweets.html.haml:18:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:50:in `trend_tweets'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:13: syntax error, unexpected $undefined
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n            <br />\n            #{haml_temp =  @ #{t.from_user}
+                                                                                                                                                                                  ^) on line #13 of app/views/trends/tweets.html.haml:
+10: 							%img{:src => "http://s.twimg.com/a/1259091217/images/default_profile_3_bigger.png", :class => "avatar"}
+11: 							= t.text
+12: 							%br
+13: 							= @ #{t.from_user}
+14: 							= time_ago_in_words(t.created_at)
+
+    app/views/trends/tweets.html.haml:18:in `compile!'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:50:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:46:17) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 828ms (View: 797, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:46:24) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2203ms (View: 2203, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:49:32) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 844ms (View: 844, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:51:00) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 9453ms (View: 9453, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:51:29) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5422ms (View: 5422, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:52:02) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1797ms (View: 1781, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:54:12) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5906ms (View: 5906, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:54:19) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2125ms (View: 2125, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:54:29) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2234ms (View: 2234, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:54:52) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4047ms (View: 4047, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:55:15) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1516ms (View: 1500, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:55:26) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1360ms (View: 1360, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing ApplicationController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:58:32) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:51: syntax error, unexpected tLEQ, expecting tCOLON2 or '[' or '.'
+		for total <= 5
+		            ^
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:57: syntax error, unexpected kEND, expecting $end):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:59:15) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:53: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#trend_tweets (for 127.0.0.1 at 2009-12-01 16:59:25) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:53: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:00:06) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:53: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:00:21) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:53: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:00:30) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:53: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:00:37) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1297ms (View: 1281, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:00:54) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1703ms (View: 1687, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:01:16) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 7546ms (View: 3171, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:01:43) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5110ms (View: 985, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:02:30) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.>>):
+  app/controllers/trends_controller.rb:53:in `trend_tweets'
+  app/controllers/trends_controller.rb:52:in `times'
+  app/controllers/trends_controller.rb:52:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:02:39) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/trends_controller.rb:53:in `trend_tweets'
+  app/controllers/trends_controller.rb:52:in `times'
+  app/controllers/trends_controller.rb:52:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:03:05) [GET]
+  Parameters: {"trend"=>"AIDS"}
+
+TypeError (can't convert String into Integer):
+  app/controllers/trends_controller.rb:53:in `[]='
+  app/controllers/trends_controller.rb:53:in `trend_tweets'
+  app/controllers/trends_controller.rb:52:in `times'
+  app/controllers/trends_controller.rb:52:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:03:15) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4688ms (View: 1281, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:03:27) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 7750ms (View: 969, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:03:43) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4313ms (View: 875, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:04:00) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 7906ms (View: 4359, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:04:15) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 9391ms (View: 5750, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:05:58) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (The line was indented 3 levels deeper than the previous line.) on line #17 of app/views/trends/tweets.html.haml:
+14: 							= time_ago_in_words(t.created_at)
+15: 			#footer
+16: 				- photos.each do |p|
+17: 							%span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+
+    app/views/trends/tweets.html.haml:17
+    haml (2.2.4) lib/haml/precompiler.rb:171:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:58:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (297.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:06:12) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (undefined local variable or method `photos' for #<ActionView::Base:0x4893394>) on line #16 of app/views/trends/tweets.html.haml:
+13: 							@#{t.from_user}
+14: 							= time_ago_in_words(t.created_at)
+15: 			#footer
+16: 				- photos.each do |p|
+17: 					%span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+
+    app/views/trends/tweets.html.haml:16:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:58:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (437.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:06:48) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (undefined method `url' for #<Array:0x47c2500>) on line #17 of app/views/trends/tweets.html.haml:
+14: 							= time_ago_in_words(t.created_at)
+15: 			#footer
+16: 				- @photos.each do |p|
+17: 					%span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+
+    app/views/trends/tweets.html.haml:17:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:16:in `each'
+    app/views/trends/tweets.html.haml:16:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:58:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:07:46) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (undefined method `url' for #<Array:0x477a8e0>) on line #17 of app/views/trends/tweets.html.haml:
+14: 							= time_ago_in_words(t.created_at)
+15: 			#footer
+16: 				- @photos.each do |p|
+17: 					%span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+
+    app/views/trends/tweets.html.haml:17:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:16:in `each'
+    app/views/trends/tweets.html.haml:16:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:58:in `trend_tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:08:16) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4500ms (View: 1266, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:09:06) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5031ms (View: 1265, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:09:21) [GET]
+  Parameters: {"trend"=>"AIDS"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5781ms (View: 1594, DB: 0) | 200 OK [http://localhost/trends/AIDS]
+
+
+Processing TrendsController#index (for 127.0.0.1 at 2009-12-01 17:10:53) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #14 of app/views/trends/index.html.haml:
+11:           |
+12:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+13:         #main.image
+14:           - @photos.each do |text, photos|
+15:             - photos.each do |p|
+16:               %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+17:                 %span#link.link
+
+    app/views/trends/index.html.haml:14:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:10:57) [GET]
+  Parameters: {"trend"=>"worldaidsday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4422ms (View: 938, DB: 0) | 200 OK [http://localhost/trends/worldaidsday]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:11:24) [GET]
+  Parameters: {"trend"=>"worldaidsday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6109ms (View: 1203, DB: 0) | 200 OK [http://localhost/trends/worldaidsday]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:11:39) [GET]
+  Parameters: {"trend"=>"worldaidsday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5141ms (View: 875, DB: 0) | 200 OK [http://localhost/trends/worldaidsday]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:12:21) [GET]
+  Parameters: {"trend"=>"worldaidsday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5625ms (View: 1625, DB: 0) | 200 OK [http://localhost/trends/worldaidsday]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:12:29) [GET]
+  Parameters: {"trend"=>"MM Twitter"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5782ms (View: 1938, DB: 0) | 200 OK [http://localhost/trends/MM%20Twitter]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:12:34) [GET]
+  Parameters: {"trend"=>"MM"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5172ms (View: 1062, DB: 0) | 200 OK [http://localhost/trends/MM]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:13:24) [GET]
+  Parameters: {"trend"=>"MM"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 10187ms (View: 6625, DB: 0) | 200 OK [http://localhost/trends/MM]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:14:46) [GET]
+  Parameters: {"trend"=>"MM"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5484ms (View: 1125, DB: 0) | 200 OK [http://localhost/trends/MM]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:14:55) [GET]
+  Parameters: {"trend"=>"MM"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5094ms (View: 1188, DB: 0) | 200 OK [http://localhost/trends/MM]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:15:23) [GET]
+  Parameters: {"trend"=>"Google Wave]"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6875ms (View: 890, DB: 0) | 200 OK [http://localhost/trends/Google%20Wave%5D]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:15:30) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 11000ms (View: 7516, DB: 0) | 200 OK [http://localhost/trends/Google%20Wave]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:16:22) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 42672ms (View: 1203, DB: 0) | 200 OK [http://localhost/trends/Google%20Wave]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:18:47) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5625ms (View: 1484, DB: 0) | 200 OK [http://localhost/trends/Google%20Wave]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:19:25) [GET]
+  Parameters: {"trend"=>"MM"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6141ms (View: 1860, DB: 0) | 200 OK [http://localhost/trends/MM]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:21:15) [GET]
+  Parameters: {"trend"=>"MM"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2344ms (View: 1266, DB: 0) | 200 OK [http://localhost/trends/MM]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:22:01) [GET]
+  Parameters: {"trend"=>"MM"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5141ms (View: 1297, DB: 0) | 200 OK [http://localhost/trends/MM]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:25:15) [GET]
+  Parameters: {"trend"=>"MM"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=${per_page}&tags=MM&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/trends_controller.rb:53:in `trend_tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:25:50) [GET]
+  Parameters: {"trend"=>"MM"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2704ms (View: 1641, DB: 0) | 200 OK [http://localhost/trends/MM]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 17:26:27) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10797ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:26:45) [GET]
+  Parameters: {"trend"=>"day"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3000ms (View: 2015, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:26:59) [GET]
+  Parameters: {"trend"=>"week"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2641ms (View: 1047, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:27:12) [GET]
+  Parameters: {"trend"=>"week"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1781ms (View: 1219, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:27:24) [GET]
+  Parameters: {"trend"=>"eddie vedder"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2656ms (View: 1109, DB: 0) | 200 OK [http://localhost/trends/eddie%20vedder]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 17:27:35) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2797ms (View: 1172, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:05:42) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6937ms (View: 3657, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:10:49) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5703ms (View: 3062, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:11:18) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 7484ms (View: 5141, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:11:37) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6765ms (View: 4203, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:11:55) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4875ms (View: 2829, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:12:17) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3953ms (View: 2657, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:13:23) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2078ms (View: 1188, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:13:47) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2078ms (View: 859, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:14:03) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1625ms (View: 937, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:14:18) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1937ms (View: 1016, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:14:30) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2438ms (View: 1610, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:14:39) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2672ms (View: 1734, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:14:49) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2469ms (View: 953, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:14:59) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1766ms (View: 891, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:15:24) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3016ms (View: 1579, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:16:23) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3063ms (View: 1891, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:16:48) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1719ms (View: 1172, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:16:58) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1532ms (View: 954, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:18:09) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2078ms (View: 1375, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:18:22) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3328ms (View: 1453, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:18:31) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1672ms (View: 922, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:18:39) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2594ms (View: 1797, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:18:58) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2156ms (View: 1328, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:21:08) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1750ms (View: 782, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:21:21) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1922ms (View: 828, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:21:30) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1704ms (View: 782, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:21:36) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2171ms (View: 1265, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:21:55) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5812ms (View: 1812, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:22:25) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2375ms (View: 1484, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:22:38) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2063ms (View: 969, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:22:47) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2750ms (View: 2000, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:22:57) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2641ms (View: 1594, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:23:11) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3125ms (View: 1718, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:23:25) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2609ms (View: 1781, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:23:34) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2672ms (View: 1407, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:24:14) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3609ms (View: 2703, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:24:33) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2531ms (View: 1828, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:24:49) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2750ms (View: 1937, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:27:00) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5078ms (View: 1953, DB: 0) | 200 OK [http://localhost/trends/pearl%20jam]
+
+
+Processing TrendsController#trend_tweets (for 127.0.0.1 at 2009-12-01 18:27:41) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 7672ms (View: 5485, DB: 0) | 200 OK [http://localhost/tweets/pearl%20jam]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 18:27:59) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 29860ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 18:28:39) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 17984ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 18:30:06) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 26953ms (View: 46, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 18:30:53) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 20578ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 18:32:00) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 30250ms (View: 125, DB: 0) | 200 OK [http://localhost/trends/day]

@@ -5,12 +5,12 @@ require 'ostruct'
 class Flickr < OpenStruct
 	include REXML
 
-	def Flickr.search(text)
+	def Flickr.search(text, per_page)
 		text = clean(text)
 
 		doc = Document.new(
 			Net::HTTP.get(
-				URI.parse("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f" + "&per_page=1&tags=#{text}&tagmode=any")))
+				URI.parse("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f" + "&per_page=#{per_page}&tags=#{text}&tagmode=any")))
 
 		 throw "flickr error" unless doc.root.attributes['stat'] == "ok"
 		 doc.root.elements['photos'].get_elements('//photo').collect {|photo| photo << Flickr.new(photo) }
