@@ -15,7 +15,9 @@ class BoardController < ApplicationController
 
 		if trend_name == "minute"
 			for t in minute do
+				total += 1
 				@photos[t.name] = Flickr.search(t.name)
+				break if total == 10
 			end
 		end
 
@@ -29,7 +31,9 @@ class BoardController < ApplicationController
 
 		if trend_name == "week"
 			for t in week do
+				total += 1
 				@photos[t.name] = Flickr.search(t.name)
+				break if total == 10
 			end
 		end
 	end
