@@ -19,11 +19,12 @@ class TrendsController < ApplicationController
 	def day
 		day = Twitter::Trends.daily
 		@photos = {}
+		total = 0
 
 		for trend in day do
-			$total += 1
+			total += 1
 			@photos[trend.name] = Flickr.search(trend.name)
-			break if $total == 10
+			break if total == 10
 		end
 
 		render :template => "trends/index"

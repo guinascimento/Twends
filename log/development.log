@@ -13720,3 +13720,13 @@ The error occurred while evaluating nil.[]=):
 Rendered rescues/_trace (422.0ms)
 Rendered rescues/_request_and_response (16.0ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-01 10:38:51) [GET]
+Rendering trends/index
+Completed in 10344ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-01 10:39:16) [GET]
+Rendering trends/index
+Completed in 6282ms (View: 32, DB: 0) | 200 OK [http://localhost/trends/day]
