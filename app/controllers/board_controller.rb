@@ -7,6 +7,7 @@ class BoardController < ApplicationController
 		day = Twitter::Trends.daily
 		week = Twitter::Trends.weekly
 
+		total = 0
 		trend_name = params[:trends]
 		@photos = {}
 
@@ -20,7 +21,9 @@ class BoardController < ApplicationController
 
 		if trend_name == "day"
 			for t in day do
+				total += 1
 				@photos[t.name] = Flickr.search(t.name)
+				break if total == 10
 			end
 		end
 
