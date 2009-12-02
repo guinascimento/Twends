@@ -21525,3 +21525,31 @@ Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:10:32) [GET]
 Rendering template within layouts/application
 Rendering trends/tweets
 Completed in 2875ms (View: 1797, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:19:32) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3406ms (View: 2828, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:19:49) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3750ms (View: 2032, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:20:08) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3547ms (View: 2360, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:20:25) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5438ms (View: 4453, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
