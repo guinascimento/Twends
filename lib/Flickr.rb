@@ -31,5 +31,6 @@ class Flickr < OpenStruct
 		text = text.gsub("#", "")
 		text = text.gsub("’", "")
 		text = text.gsub("é", "")
+		text = text.gsub("…", "")
 	end
 end
