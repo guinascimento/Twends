@@ -18,7 +18,7 @@
 										%span#tweet_user
 											#{t.from_user}
 										%span#tweet
-											= link_to t.text, "http://twitter.com/#{t.from_user}/status/#{t.id}"
+											= link_to t.text, "http://twitter.com/#{t.from_user}/status/#{t.id}", :target => "blank"
 											%br
 										%span#tweet_options	
 											= time_ago_in_words(t.created_at)
