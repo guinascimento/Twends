@@ -21456,3 +21456,72 @@ Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 14:52:02) [GET]
 Rendering template within layouts/application
 Rendering trends/tweets
 Completed in 1891ms (View: 1328, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-02 15:06:45) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6953ms (View: 250, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:07:09) [GET]
+  Parameters: {"trend"=>"Holiday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1625ms (View: 937, DB: 0) | 200 OK [http://localhost/tweets/Holiday]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:07:28) [GET]
+  Parameters: {"trend"=>"Holiday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2188ms (View: 1313, DB: 0) | 200 OK [http://localhost/tweets/Holiday]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:07:49) [GET]
+  Parameters: {"trend"=>"Holiday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2110ms (View: 1516, DB: 0) | 200 OK [http://localhost/tweets/Holiday]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:08:21) [GET]
+  Parameters: {"trend"=>"Holiday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2000ms (View: 969, DB: 0) | 200 OK [http://localhost/tweets/Holiday]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:08:38) [GET]
+  Parameters: {"trend"=>"Holiday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1468ms (View: 922, DB: 0) | 200 OK [http://localhost/tweets/Holiday]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:09:18) [GET]
+  Parameters: {"trend"=>"Holiday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1813ms (View: 922, DB: 0) | 200 OK [http://localhost/tweets/Holiday]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:09:43) [GET]
+  Parameters: {"trend"=>"Holiday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1547ms (View: 984, DB: 0) | 200 OK [http://localhost/tweets/Holiday]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:10:13) [GET]
+  Parameters: {"trend"=>"Holiday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1719ms (View: 1141, DB: 0) | 200 OK [http://localhost/tweets/Holiday]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:10:32) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2875ms (View: 1797, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
