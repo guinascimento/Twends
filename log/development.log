@@ -21553,3 +21553,71 @@ Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:20:25) [GET]
 Rendering template within layouts/application
 Rendering trends/tweets
 Completed in 5438ms (View: 4453, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-02 15:32:43) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8922ms (View: 391, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-02 15:33:32) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10250ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:33:49) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1844ms (View: 1016, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:34:52) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2328ms (View: 1156, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:35:05) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2890ms (View: 1672, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:35:26) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2953ms (View: 2109, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:35:53) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1813ms (View: 860, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:36:10) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1640ms (View: 1093, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:36:27) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1844ms (View: 922, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-02 15:36:51) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1609ms (View: 828, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
