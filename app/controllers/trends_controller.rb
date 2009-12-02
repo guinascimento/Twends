@@ -10,7 +10,7 @@ class TrendsController < ApplicationController
 
 		for trend in minute do
 			total += 1
-			@photos[trend.name] = Flickr.search(trend.name, 1)
+			@photos[trend.name] = Flickr.search(trend.name)
 			break if total == 10
 		end
 
@@ -24,7 +24,7 @@ class TrendsController < ApplicationController
 
 		for trend in day do
 			total += 1
-			@photos[trend.name] = Flickr.search(trend.name, 1)
+			@photos[trend.name] = Flickr.search(trend.name)
 			break if total == 10
 		end
 
@@ -38,23 +38,18 @@ class TrendsController < ApplicationController
 
 		for trend in week do
 			total += 1
-			@photos[trend.name] = Flickr.search(trend.name, 1)
+			@photos[trend.name] = Flickr.search(trend.name)
 			break if total == 10
 		end
 
 		render :template => "trends/index"
 	end
 	
-	def trend_tweets
+	def tweets
 		@tweets = Twitter::Search.new(params[:trend])
 		@photos = []
+		@photos << Flickr.search(params[:trend], 9)
 		
-		
-			@photos << Flickr.search(params[:trend], 5)
-		
-
-		puts @photos.inspect
-
 		render :template => "trends/tweets"
 	end
 end

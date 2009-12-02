@@ -41,6 +41,16 @@ body {
 	float: left;
 }
 
+.photo_balloon {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;	
+	display: block;
+	width: 75px;
+	padding-top: 40px;
+	height: 36px;
+	margin: 3px;
+	float: left;
+}
 
 #main span.link {
 	font-family: Helvetica;
@@ -59,6 +69,16 @@ body {
 	font-size: 13px;
 	line-height: 10px;
 	display: none;
+}
+
+#main span.link a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#main span.link a:hover {
+	color: #fff;
+	text-decoration: underline;
 }
 
 #main span.share {
@@ -89,18 +109,23 @@ body {
 	padding:18px 0 19px 69px;
 }
 
+#contentleft_balloon {
+	float:left;
+	margin:0px;
+	padding:1px 0 19px 69px;
+}
+
 #logo {
 	margin-left:40px;
 	margin-top:10px;
 	float:left;
-	background:url(/images/logo.png) no-repeat
 }
 
 #logo h1{
 	font-family:'Trebuchet MS',Arial,Helvetica,sans-serif;
 	font-size:13px;
 	color:black;
-	margin-top:54px;
+	margin-top:14px;
 	margin-left:33px;
 }
 
@@ -142,7 +167,7 @@ a:hover {
 	font-family:'Trebuchet MS',Arial,Helvetica,sans-serif;
 	font-size:11px;
 	color: black;
-	padding-left:72px;
+	padding-left:11px;
 	width: 100%;
 	padding-top:30px;
 }
@@ -153,10 +178,10 @@ a:hover {
 }
 
 #listticker{
-	height:194px;
+	height:199px;
 	overflow:hidden;
 	
-	padding:0px 10px 5px 0px;;
+	padding:0px 0px 0px 0px;
 }
 
 #listticker li{
@@ -199,17 +224,76 @@ a:hover {
 	border: 1px solid #fff;
 }
 
-a.others {
-	padding: 3px;
-	background: #BAAA96;
-	display: block;
-	width: 50px;
-	height: 50px;
-	float: left;
-	margin: 0 10px 0 0;
+#tweet {
+	font-family:'Trebuchet MS',Arial,Helvetica,sans-serif;
+	font-size:12px;
 }
 
-a.others:hover, a.others:active {
-	background: #669900;
+#tweet_options {
+	font-family:'Trebuchet MS',Arial,Helvetica,sans-serif;
+	font-size:11px;
+	color: gray;
 }
 
+#tweet_user {
+	font-family:'Trebuchet MS',Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight: bold;
+	color: #4096EE;
+}
+
+
+
+
+#top-left, #top-right, #bottom-left, #bottom-right {
+	  float: left;
+	  width: 15px;
+	  height: 15px;
+	}
+
+	#top-middle, #bottom-middle {
+	  background-color: white;
+	  float: left;
+	  width: 725px;
+	  height: 15px;
+	}
+
+	#top-left {
+	  background-image: url(/images/tl.png);
+	}
+
+	#top-right {
+	  background-image: url(/images/tr.png);
+	}
+
+	#bottom-left {
+	  background-image: url(/images/bl.png);
+	}
+
+	#bottom-right {
+	  background-image: url(/images/br.png);
+	}
+
+	#container_balloon {
+	  width: 755px;
+	  margin: 0 auto;
+	  padding: 1px 0;
+	  text-align: left;
+	  position: relative;
+		margin-top: 1px;
+	}
+
+	#content_balloon {
+	  padding-bottom: 10px;
+	}
+
+	.wrapper_balloon {
+	  background-color: white;
+	  padding: 5px 15px 5px 20px;
+	  clear: both;
+	}
+		.subpage #content_balloon {
+	  padding-top: 11px;
+	  background: url(/images/arrow.gif) no-repeat 32px 0px;
+	  margin-top: 6px;
+	}

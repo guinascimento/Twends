@@ -1,6 +1,7 @@
 %body
   #content
     #logo
+      = link_to image_tag("logo.png", :border => "0"), "http://twends.heroku.com"
       %h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Flickr", "http://www.flickr.com", :id => "flickr"} photos)
     #banner
       #contentleft
@@ -15,7 +16,7 @@
             - photos.each do |p|
               %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
                 %span#link.link
-                  = text
+                  #{link_to text, url_escape("/tweets/#{text}")}
                 %span#share.share
                   = link_to image_tag("twitter.png"), "http://search.twitter.com/search?q=#{text}"
                   = link_to image_tag("flickr.png"), "http://www.flickr.com/search/?w=all&q=#{text}"

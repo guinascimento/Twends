@@ -5,7 +5,7 @@ require 'ostruct'
 class Flickr < OpenStruct
 	include REXML
 
-	def Flickr.search(text, per_page)
+	def Flickr.search(text, per_page = 1)
 		text = clean(text)
 
 		doc = Document.new(
