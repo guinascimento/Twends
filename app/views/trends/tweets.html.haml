@@ -1,0 +1,32 @@
+%body
+	#content
+		#logo
+			= link_to image_tag("logo.png", :border => "0"), "http://twends.heroku.com"
+			%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Flickr", "http://www.flickr.com", :id => "flickr"} photos)
+		#banner
+			#contentleft_balloon						
+				%div{:id => "container_balloon", :class => "subpage"}
+					%div{:id => "content_balloon", :style => "width:100%"}
+						#top-left
+						#top-middle
+						#top-right
+						.wrapper_balloon
+							%ul#listticker
+								- @tweets.each do |t|
+									%li
+										%img{:src => "http://img.tweetimag.es/i/#{t.from_user}_n", :class => "avatar"}
+										%span#tweet_user
+											#{t.from_user}
+										%span#tweet
+											#{t.text}
+											%br
+										%span#tweet_options	
+											= time_ago_in_words(t.created_at)
+							%div{:id => "main", :style => "margin-top: 15px"}
+						#bottom-left
+						#bottom-middle
+						#bottom-right
+					#footer_images
+						- @photos.each do |photos|
+							- photos.each do |p|
+								%span{:class => "photo_balloon", :style => "background-image:url('#{p.url 's'}');"}
