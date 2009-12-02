@@ -18,8 +18,7 @@
 										%span#tweet_user
 											#{t.from_user}
 										%span#tweet
-											= link_to, "http://twitter.com/#{t.from_user}/status/#{t.id}"
-											#{t.text}
+											= link_to t.text, "http://twitter.com/#{t.from_user}/status/#{t.id}"
 											%br
 										%span#tweet_options	
 											= time_ago_in_words(t.created_at)
