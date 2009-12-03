@@ -6,20 +6,18 @@ class TrendsController < ApplicationController
 	caches_action :minute, :day, :week
 
 	def minute
-	Benchmark.bm do |x|
-	x.report {
 		minute = Twitter::Trends.current
 		@photos = {}
 		total = 0
-
+puts "====================================="
+		puts "minute"
 		for trend in minute do
 			total += 1
 			@photos[trend.name] = Flickr.search(trend.name)
 			break if total == 10
 		end
 
-		render :template => "trends/index"}
-	end
+		render :template => "trends/index"
 	end
 	
 	def day

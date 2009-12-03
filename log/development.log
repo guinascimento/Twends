@@ -26775,3 +26775,267 @@ Cached fragment hit: views/localhost:3000/index (0.0ms)
 Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4665be4 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
 Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4665a90 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4665be4 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
 Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#minute (for 127.0.0.1 at 2009-12-03 14:25:05) [GET]
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:20: syntax error, unexpected '}', expecting kEND
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:62: syntax error, unexpected $end, expecting kEND):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#minute (for 127.0.0.1 at 2009-12-03 14:25:16) [GET]
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:20: syntax error, unexpected '}', expecting kEND
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:62: syntax error, unexpected $end, expecting kEND):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (313.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#minute (for 127.0.0.1 at 2009-12-03 14:25:23) [GET]
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:19: syntax error, unexpected '}', expecting kEND
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:61: syntax error, unexpected $end, expecting kEND):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#minute (for 127.0.0.1 at 2009-12-03 14:26:06) [GET]
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:19: syntax error, unexpected '}', expecting kEND
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:61: syntax error, unexpected $end, expecting kEND):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#minute (for 127.0.0.1 at 2009-12-03 14:26:10) [GET]
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:19: syntax error, unexpected '}', expecting kEND
+		render :template => "trends/index"} end
+		                                   ^
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:61: syntax error, unexpected $end, expecting kEND):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:26:24) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Rendering template within layouts/application
+Rendering trends/index
+Cached fragment miss: views/localhost:3000/index (0.0ms)
+Completed in 10656ms (View: 219, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:26:35) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x48d3dcc @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48d3c78 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x48d3dcc @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:26:40) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x485dfa0 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x485db90 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x485dfa0 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-03 14:26:52) [GET]
+Cached fragment hit: views/localhost:3000/trends/day (0.0ms)
+Rendering template within layouts/application
+Rendering trends/index
+Cached fragment miss: views/localhost:3000/trends/day (0.0ms)
+Completed in 12016ms (View: 110, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:27:12) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x48b5520 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48b53cc @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x48b5520 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:28:08) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 14734ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:28:25) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9922ms (View: 562, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:28:53) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8656ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:29:02) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4726344 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47261c8 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4726344 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:29:05) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x46ea240 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46ea0ec @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x46ea240 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:29:11) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x46b6a80 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46b692c @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x46b6a80 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:29:14) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x468348c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4683338 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x468348c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-03 14:29:48) [GET]
+Cached fragment hit: views/localhost:3000/trends/week (0.0ms)
+Rendering template within layouts/application
+Rendering trends/index
+Cached fragment miss: views/localhost:3000/trends/week (0.0ms)
+Completed in 10922ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:30:05) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x473928c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4739138 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x473928c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-03 14:30:06) [GET]
+Cached fragment hit: views/localhost:3000/trends/week (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47002ac @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46ff6e0 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47002ac @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:30:07) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x46ceea0 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x46ced4c @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x46ceea0 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-03 14:33:52) [GET]
+Cached fragment hit: views/localhost:3000/trends/day (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x469d148 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x469cc84 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x469d148 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-03 14:33:58) [GET]
+Cached fragment hit: views/localhost:3000/trends/week (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4664d34 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4664be0 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4664d34 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-03 14:44:58) [GET]
+Cached fragment hit: views/localhost:3000/trends/week (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x4627060 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x4626f0c @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x4627060 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-03 14:45:00) [GET]
+Cached fragment hit: views/localhost:3000/trends/day (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x45f2400 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45f22ac @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x45f2400 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:45:00) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x45c3100 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x45c2fac @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x45c3100 @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 297ms (View: 281, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:45:06) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x48b2f8c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>] rendered_or_redirected.
+Filter chain halted as [#<ActionController::Filters::AroundFilter:0x48b2e38 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x48b2f8c @options={:layout=>nil, :cache_path=>nil, :store_options=>{}}>>] did_not_yield.
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 14:54:54) [GET]
+Cached fragment hit: views/localhost:3000/index (0.0ms)
+Rendering template within layouts/application
+Rendering trends/index
+Cached fragment miss: views/localhost:3000/index (0.0ms)
+Completed in 12328ms (View: 156, DB: 0) | 200 OK [http://localhost/]
