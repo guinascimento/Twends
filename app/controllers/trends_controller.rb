@@ -1,9 +1,13 @@
 require 'Flickr'
+require 'benchmark'
 
 class TrendsController < ApplicationController
 	layout "application"
+	caches_action :minute, :day, :week
 
 	def minute
+	Benchmark.bm do |x|
+	x.report {
 		minute = Twitter::Trends.current
 		@photos = {}
 		total = 0
@@ -14,7 +18,8 @@ class TrendsController < ApplicationController
 			break if total == 10
 		end
 
-		render :template => "trends/index"
+		render :template => "trends/index"}
+	end
 	end
 	
 	def day
