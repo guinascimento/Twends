@@ -168,7 +168,7 @@ a:hover {
 	font-size:11px;
 	color: black;
 	padding-left:72px;
-	padding-top:520px;
+	padding-top:529px;
 }
 
 #images {
@@ -177,7 +177,7 @@ a:hover {
 	color: black;
 	padding-left:12px;
 	width: 100%;
-	padding-top:20px;
+	padding-top:12px;
 }
 
 .current {
@@ -188,7 +188,6 @@ a:hover {
 #listticker{
 	height:201px;
 	overflow:hidden;
-	
 	padding:0px 0px 0px 0px;
 }
 
@@ -227,9 +226,8 @@ a:hover {
 	border:solid 1px #DEDEDE;
 }
 
-.avatar {
-	
-	border: 1px solid #fff;
+.avatar {	
+	border: 3px solid #fff;
 }
 
 #tweet {
@@ -254,54 +252,71 @@ a:hover {
 
 
 #top-left, #top-right, #bottom-left, #bottom-right {
-	  float: left;
-	  width: 15px;
-	  height: 15px;
-	}
+	float: left;
+	width: 15px;
+	height: 15px;
+}
 
-	#top-middle, #bottom-middle {
-	  background-color: white;
-	  float: left;
-	  width: 725px;
-	  height: 15px;
-	}
+#top-middle, #bottom-middle {
+	background-color: white;
+	float: left;
+	width: 725px;
+	height: 15px;
+}
 
-	#top-left {
-	  background-image: url(/images/tl.png);
-	}
+#top-left {
+	background-image: url(/images/tl.png);
+}
 
-	#top-right {
-	  background-image: url(/images/tr.png);
-	}
+#top-right {
+	background-image: url(/images/tr.png);
+}
 
-	#bottom-left {
-	  background-image: url(/images/bl.png);
-	}
+#bottom-left {
+	background-image: url(/images/bl.png);
+}
 
-	#bottom-right {
-	  background-image: url(/images/br.png);
-	}
+#bottom-right {
+	background-image: url(/images/br.png);
+}
 
-	#container_balloon {
-	  width: 755px;
-	  margin: 0 auto;
-	  padding: 1px 0;
-	  text-align: left;
-	  position: relative;
-		margin-top: 1px;
-	}
+#container_balloon {
+	width: 755px;
+	text-align: left;
+	padding-top: 1px;
+}
 
-	#content_balloon {
-	  padding-bottom: 10px;
-	}
+#content_balloon {
+	padding-bottom: 10px;
+}
 
-	.wrapper_balloon {
-	  background-color: white;
-	  padding: 5px 15px 5px 20px;
-	  clear: both;
-	}
-		.subpage #content_balloon {
-	  padding-top: 11px;
-	  background: url(/images/arrow.gif) no-repeat 32px 0px;
-	  margin-top: 6px;
-	}
+.wrapper_balloon {
+	background-color: white;
+	padding: 5px 15px 1px 20px;
+	clear: both;
+}
+
+.subpage #content_balloon {
+	padding-top: 11px;
+	background: url(/images/arrow.gif) no-repeat 32px 0px;
+	margin-top: 6px;
+}
+
+#search {
+	padding-left:550px;
+}
+
+#search input {
+	border: 1px solid transparent;
+	border-top: 1px solid #acb5b8;
+	border-left: 1px solid #b1bcbe;
+	padding: 5px 3px 5px 4px;
+	font-size: 15px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, arial, sans-serif;
+	font-weight: 300; 
+	color: black;
+	background: whitesmoke;
+	-moz-border-radius: 3px;
+	width: 169px;
+	-webkit-border-radius: 3px;
+}

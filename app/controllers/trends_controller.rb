@@ -52,4 +52,8 @@ class TrendsController < ApplicationController
 		
 		render :template => "trends/tweets"
 	end
+	
+	def search
+		redirect_to :action => "tweets", :trend => params[:trend]
+	end
 end

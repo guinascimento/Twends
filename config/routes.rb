@@ -1,5 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
-  map.public_profile '/tweets/:trend', :controller => 'trends', :action => 'tweets'
+  map.trend '/tweets/:trend', :controller => 'trends', :action => 'tweets'
+  map.search '/tweets', :controller => 'trends', :action => 'search'
 
   map.root :controller => "trends", :action => "minute"
 

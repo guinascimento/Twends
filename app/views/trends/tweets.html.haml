@@ -11,6 +11,9 @@
 						#top-middle
 						#top-right
 						.wrapper_balloon
+							#search
+								- form_tag("/tweets") do
+									= text_field_tag "trend"
 							%ul#listticker
 								- @tweets.each do |t|
 									%li
