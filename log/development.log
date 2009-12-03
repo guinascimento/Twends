@@ -25692,3 +25692,803 @@ Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:35:21) [GET]
 Rendering template within layouts/application
 Rendering trends/tweets
 Completed in 1875ms (View: 1094, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:37:51) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1594ms (View: 907, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:38:22) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1437ms (View: 812, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:38:42) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1546ms (View: 968, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:38:55) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1266ms (View: 672, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:39:51) [POST]
+  Parameters: {"trend"=>"salario", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/salario
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:39:51) [GET]
+  Parameters: {"trend"=>"salario"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2687ms (View: 937, DB: 0) | 200 OK [http://localhost/tweets/salario]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:40:03) [POST]
+  Parameters: {"trend"=>"brasil", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/brasil
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:40:03) [GET]
+  Parameters: {"trend"=>"brasil"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1750ms (View: 765, DB: 0) | 200 OK [http://localhost/tweets/brasil]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:40:10) [POST]
+  Parameters: {"trend"=>"bahia", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/bahia
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:40:10) [GET]
+  Parameters: {"trend"=>"bahia"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2031ms (View: 1094, DB: 0) | 200 OK [http://localhost/tweets/bahia]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:40:20) [POST]
+  Parameters: {"trend"=>"minas gerais", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/minas%20gerais
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:40:20) [GET]
+  Parameters: {"trend"=>"minas gerais"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1563ms (View: 781, DB: 0) | 200 OK [http://localhost/tweets/minas%20gerais]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:40:27) [POST]
+  Parameters: {"trend"=>"akta", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/akta
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:40:27) [GET]
+  Parameters: {"trend"=>"akta"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1843ms (View: 1000, DB: 0) | 200 OK [http://localhost/tweets/akta]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:40:34) [POST]
+  Parameters: {"trend"=>"ioioioioioi", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/ioioioioioi
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:40:35) [GET]
+  Parameters: {"trend"=>"ioioioioioi"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1906ms (View: 1093, DB: 0) | 200 OK [http://localhost/tweets/ioioioioioi]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:40:46) [POST]
+  Parameters: {"trend"=>"nicke jonas", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/nicke%20jonas
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:40:46) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1594ms (View: 969, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:41:29) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1203ms (View: 656, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:41:44) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1156ms (View: 609, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:42:02) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1282ms (View: 657, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:42:44) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1297ms (View: 641, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:43:09) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1156ms (View: 593, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:43:22) [POST]
+  Parameters: {"trend"=>"flamengo", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/flamengo
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:43:22) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1328ms (View: 781, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:44:05) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1984ms (View: 109, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:44:14) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1234ms (View: 15, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:45:11) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1265ms (View: 15, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:45:21) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1500ms (View: 16, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:45:30) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1469ms (View: 15, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:45:50) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1359ms (View: 797, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:46:25) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1906ms (View: 828, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:46:49) [GET]
+  Parameters: {"trend"=>"nicke jonas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1734ms (View: 1062, DB: 0) | 200 OK [http://localhost/tweets/nicke%20jonas]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:47:32) [POST]
+  Parameters: {"trend"=>"flamengop", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/flamengop
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:47:32) [GET]
+  Parameters: {"trend"=>"flamengop"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1766ms (View: 1063, DB: 0) | 200 OK [http://localhost/tweets/flamengop]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:47:40) [POST]
+  Parameters: {"trend"=>"flamengok", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/flamengok
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:47:40) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1281ms (View: 609, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:48:01) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2406ms (View: 1937, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:48:15) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1110ms (View: 657, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:48:31) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1079ms (View: 594, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:48:49) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1328ms (View: 703, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:49:12) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 594ms (View: 63, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:49:40) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 547ms (View: 47, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:50:07) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3406ms (View: 2922, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:50:40) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 546ms (View: 31, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:53:13) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1328ms (View: 812, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:53:34) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 469ms (View: 16, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:53:46) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 563ms (View: 31, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:54:07) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 500ms (View: 31, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:54:45) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (The line was indented 2 levels deeper than the previous line.) on line #18 of app/views/trends/tweets.html.haml:
+15: 								- form_tag("/tweets") do
+16: 									= text_field_tag "trend"
+17: 							- if @tweets != nil
+18: 									%ul#listticker
+19: 										- @tweets.each do |t|
+20: 											%li
+21: 												%img{:src => "http://img.tweetimag.es/i/#{t.from_user}_n", :class => "avatar"}
+
+    app/views/trends/tweets.html.haml:18
+    haml (2.2.4) lib/haml/precompiler.rb:171:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:53:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:55:04) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (The line was indented 2 levels deeper than the previous line.) on line #18 of app/views/trends/tweets.html.haml:
+15: 								- form_tag("/tweets") do
+16: 									= text_field_tag "trend"
+17: 								- if @tweets != nil
+18: 										%ul#listticker
+19: 											- @tweets.each do |t|
+20: 												%li
+21: 													%img{:src => "http://img.tweetimag.es/i/#{t.from_user}_n", :class => "avatar"}
+
+    app/views/trends/tweets.html.haml:18
+    haml (2.2.4) lib/haml/precompiler.rb:171:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:53:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:55:20) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (The line was indented 2 levels deeper than the previous line.) on line #18 of app/views/trends/tweets.html.haml:
+15: 								- form_tag("/tweets") do
+16: 									= text_field_tag "trend"
+17: 						- if @tweets != nil
+18: 								%ul#listticker
+19: 									- @tweets.each do |t|
+20: 										%li
+21: 											%img{:src => "http://img.tweetimag.es/i/#{t.from_user}_n", :class => "avatar"}
+
+    app/views/trends/tweets.html.haml:18
+    haml (2.2.4) lib/haml/precompiler.rb:171:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:53:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:55:35) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1328ms (View: 813, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:55:58) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (The line was indented 2 levels deeper than the previous line.) on line #18 of app/views/trends/tweets.html.haml:
+15: 								- form_tag("/tweets") do
+16: 									= text_field_tag "trend"
+17: 							- if @tweets != nil
+18: 									%ul#listticker
+19: 										- @tweets.each do |t|
+20: 											%li
+21: 												%img{:src => "http://img.tweetimag.es/i/#{t.from_user}_n", :class => "avatar"}
+
+    app/views/trends/tweets.html.haml:18
+    haml (2.2.4) lib/haml/precompiler.rb:171:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:53:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:56:04) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3797ms (View: 3328, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:56:42) [GET]
+  Parameters: {"trend"=>"flamengok"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1078ms (View: 625, DB: 0) | 200 OK [http://localhost/tweets/flamengok]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:56:53) [POST]
+  Parameters: {"trend"=>"flamengo", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/flamengo
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:56:53) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1718ms (View: 1015, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:57:03) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1844ms (View: 1063, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:57:06) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3297ms (View: 2766, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:57:21) [POST]
+  Parameters: {"trend"=>"korn", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/korn
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:57:21) [GET]
+  Parameters: {"trend"=>"korn"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1859ms (View: 1094, DB: 0) | 200 OK [http://localhost/tweets/korn]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:57:30) [POST]
+  Parameters: {"trend"=>"pearl jam", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/pearl%20jam
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:57:30) [GET]
+  Parameters: {"trend"=>"pearl jam"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2531ms (View: 1312, DB: 0) | 200 OK [http://localhost/tweets/pearl%20jam]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:58:35) [POST]
+  Parameters: {"trend"=>"creed", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/creed
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:58:35) [GET]
+  Parameters: {"trend"=>"creed"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2172ms (View: 1109, DB: 0) | 200 OK [http://localhost/tweets/creed]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 11:58:43) [POST]
+  Parameters: {"trend"=>"mpb", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/mpb
+Completed in 31ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 11:58:43) [GET]
+  Parameters: {"trend"=>"mpb"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3187ms (View: 2218, DB: 0) | 200 OK [http://localhost/tweets/mpb]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 12:00:30) [POST]
+  Parameters: {"trend"=>"guittar", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/guittar
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 12:00:30) [GET]
+  Parameters: {"trend"=>"guittar"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2172ms (View: 922, DB: 0) | 200 OK [http://localhost/tweets/guittar]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 12:00:38) [POST]
+  Parameters: {"trend"=>"skate", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/skate
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 12:00:38) [GET]
+  Parameters: {"trend"=>"skate"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1890ms (View: 859, DB: 0) | 200 OK [http://localhost/tweets/skate]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 12:00:46) [POST]
+  Parameters: {"trend"=>"billabong", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/billabong
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 12:00:46) [GET]
+  Parameters: {"trend"=>"billabong"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2500ms (View: 1421, DB: 0) | 200 OK [http://localhost/tweets/billabong]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 12:27:55) [GET]
+
+ThreadError (uncaught throw `flickr error' in thread 0x30338c0):
+  lib/Flickr.rb:15:in `throw'
+  lib/Flickr.rb:15:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 12:28:18) [GET]
+
+ThreadError (uncaught throw `flickr error' in thread 0x30338c0):
+  lib/Flickr.rb:15:in `throw'
+  lib/Flickr.rb:15:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 12:39:22) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10250ms (View: 407, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 12:42:37) [GET]
+  Parameters: {"trend"=>"Pleasure P"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 7407ms (View: 4985, DB: 0) | 200 OK [http://localhost/tweets/Pleasure%20P]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 12:48:06) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8172ms (View: 391, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 12:48:58) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9890ms (View: 453, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 12:49:12) [GET]
+  Parameters: {"trend"=>"Comcast"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2156ms (View: 1109, DB: 0) | 200 OK [http://localhost/tweets/Comcast]
+
+
+Processing ApplicationController#minute (for 127.0.0.1 at 2009-12-03 12:50:03) [GET]
+
+SyntaxError (c:/RailsProjects/twends/lib/Flickr.rb:8: syntax error, unexpected '.', expecting ')'
+	def Flickr.search(text.clean(text), per_page = 1)
+	                       ^
+c:/RailsProjects/twends/lib/Flickr.rb:8: syntax error, unexpected ',', expecting kEND
+	def Flickr.search(text.clean(text), per_page = 1)
+	                                   ^
+c:/RailsProjects/twends/lib/Flickr.rb:8: syntax error, unexpected ')', expecting kEND
+c:/RailsProjects/twends/lib/Flickr.rb:32: syntax error, unexpected kEND, expecting $end):
+  app/controllers/trends_controller.rb:1
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 12:51:11) [GET]
+
+ThreadError (uncaught throw `flickr error' in thread 0x30338c0):
+  lib/Flickr.rb:15:in `throw'
+  lib/Flickr.rb:15:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 12:51:15) [GET]
+
+ThreadError (uncaught throw `flickr error' in thread 0x30338c0):
+  lib/Flickr.rb:15:in `throw'
+  lib/Flickr.rb:15:in `search'
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 12:51:47) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11219ms (View: 391, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 12:53:27) [GET]
+  Parameters: {"trend"=>"Santa"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6344ms (View: 4875, DB: 0) | 200 OK [http://localhost/tweets/Santa]

@@ -187,6 +187,7 @@ a:hover {
 
 #listticker{
 	height:201px;
+	width: 100%;
 	overflow:hidden;
 	padding:0px 0px 0px 0px;
 }

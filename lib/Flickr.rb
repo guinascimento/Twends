@@ -22,15 +22,11 @@ class Flickr < OpenStruct
 		self.photo_id = e.attributes['id']
 	end
 
-	def url(image_type="m")
+	def url(image_type = "m")
 		"http://farm#{farm}.static.flickr.com/#{server}/#{photo_id}_#{secret}_#{image_type}.jpg"
 	end
 
 	def Flickr.clean(text)
-		text = text.gsub(" ", ",")
-		text = text.gsub("#", "")
-		text = text.gsub("’", "")
-		text = text.gsub("é", "")
-		text = text.gsub("…", "")
+		text = text.gsub(/[#) ... é ’]/, "")
 	end
 end
