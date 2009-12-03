@@ -3,14 +3,12 @@ require 'benchmark'
 
 class TrendsController < ApplicationController
 	layout "application"
-	caches_action :minute, :day, :week
 
 	def minute
 		minute = Twitter::Trends.current
 		@photos = {}
 		total = 0
-puts "====================================="
-		puts "minute"
+
 		for trend in minute do
 			total += 1
 			@photos[trend.name] = Flickr.search(trend.name)
