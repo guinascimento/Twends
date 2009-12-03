@@ -46,7 +46,7 @@ class TrendsController < ApplicationController
 	end
 	
 	def tweets
-		@tweets = Twitter::Search.new(params[:trend])
+		@tweets = Twitter::Search.new(params[:trend]).per_page(50)
 		@photos = []
 		@photos << Flickr.search(params[:trend], 9)
 		

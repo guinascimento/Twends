@@ -26492,3 +26492,113 @@ Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 12:53:27) [GET]
 Rendering template within layouts/application
 Rendering trends/tweets
 Completed in 6344ms (View: 4875, DB: 0) | 200 OK [http://localhost/tweets/Santa]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 13:05:41) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12516ms (View: 297, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:06:13) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6157ms (View: 4578, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:06:36) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4516ms (View: 3516, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:07:12) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4469ms (View: 3625, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:07:28) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2343ms (View: 1515, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing ApplicationController#tweets (for 127.0.0.1 at 2009-12-03 13:08:03) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+
+SyntaxError (c:/RailsProjects/twends/app/controllers/trends_controller.rb:53: syntax error, unexpected kDO
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:63: syntax error, unexpected kEND, expecting $end):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:08:14) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4641ms (View: 532, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:08:46) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4406ms (View: 437, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:09:08) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1812ms (View: 62, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:09:30) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6000ms (View: 109, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:11:32) [GET]
+  Parameters: {"trend"=>"#thingsilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3203ms (View: 110, DB: 0) | 200 OK [http://localhost/tweets/%23thingsilove]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-03 13:11:44) [POST]
+  Parameters: {"trend"=>"flamengo", "authenticity_token"=>"wDvoZBUqY80rVD9rZmFoHClcwBsgVNLS222DUX/BgcY="}
+Redirected to http://localhost:3000/tweets/flamengo
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:11:44) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3484ms (View: 125, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-03 13:12:06) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2454ms (View: 1297, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
