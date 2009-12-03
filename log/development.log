@@ -27233,3 +27233,353 @@ Cached fragment hit: views/localhost:3000/index (62.0ms)
 Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47cdc48 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>120 seconds}}>] rendered_or_redirected.
 Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47cdaf4 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47cdc48 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>120 seconds}}>>] did_not_yield.
 Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:26:19) [GET]
+
+ThreadError (uncaught throw `Flickr Error' in thread 0x3b3ad60):
+  lib/Flickr.rb:15:in `throw'
+  lib/Flickr.rb:15:in `search'
+  app/controllers/trends_controller.rb:14:in `minute'
+  app/controllers/trends_controller.rb:12:in `each'
+  app/controllers/trends_controller.rb:12:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (313.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:26:38) [GET]
+
+ThreadError (uncaught throw `Flickr Error' in thread 0x3b3ad60):
+  lib/Flickr.rb:15:in `throw'
+  lib/Flickr.rb:15:in `search'
+  app/controllers/trends_controller.rb:14:in `minute'
+  app/controllers/trends_controller.rb:12:in `each'
+  app/controllers/trends_controller.rb:12:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:27:17) [GET]
+
+ThreadError (uncaught throw `Flickr Error' in thread 0x3dbe0a8):
+  lib/Flickr.rb:15:in `throw'
+  lib/Flickr.rb:15:in `search'
+  app/controllers/trends_controller.rb:14:in `minute'
+  app/controllers/trends_controller.rb:12:in `each'
+  app/controllers/trends_controller.rb:12:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:28:10) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10407ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:29:19) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8906ms (View: 109, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:30:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9828ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:30:47) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10500ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:35:11) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 14469ms (View: 1016, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-03 16:35:38) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 15891ms (View: 63, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:36:02) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9406ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:37:51) [GET]
+
+NoMethodError (undefined method `logger' for Flickr:Class):
+  lib/Flickr.rb:10:in `search'
+  app/controllers/trends_controller.rb:14:in `minute'
+  app/controllers/trends_controller.rb:12:in `each'
+  app/controllers/trends_controller.rb:12:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (297.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:38:52) [GET]
+
+NameError (undefined local variable or method `logger' for Flickr:Class):
+  lib/Flickr.rb:10:in `search'
+  app/controllers/trends_controller.rb:14:in `minute'
+  app/controllers/trends_controller.rb:12:in `each'
+  app/controllers/trends_controller.rb:12:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (296.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:39:34) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11390ms (View: 187, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:43:52) [GET]
+
+Errno::EBADF (Bad file descriptor - connect(2)):
+  c:/ruby/lib/ruby/1.8/net/http.rb:560:in `initialize'
+  c:/ruby/lib/ruby/1.8/net/http.rb:560:in `open'
+  c:/ruby/lib/ruby/1.8/net/http.rb:560:in `connect'
+  c:/ruby/lib/ruby/1.8/timeout.rb:48:in `timeout'
+  c:/ruby/lib/ruby/1.8/timeout.rb:76:in `timeout'
+  c:/ruby/lib/ruby/1.8/net/http.rb:560:in `connect'
+  c:/ruby/lib/ruby/1.8/net/http.rb:553:in `do_start'
+  c:/ruby/lib/ruby/1.8/net/http.rb:542:in `start'
+  c:/ruby/lib/ruby/1.8/net/http.rb:379:in `get_response'
+  c:/ruby/lib/ruby/1.8/net/http.rb:356:in `get'
+  lib/Flickr.rb:13:in `search'
+  app/controllers/trends_controller.rb:14:in `minute'
+  app/controllers/trends_controller.rb:12:in `each'
+  app/controllers/trends_controller.rb:12:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:45:39) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12609ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:47:52) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9375ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:49:12) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8610ms (View: 141, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:49:56) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11250ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-03 16:51:14) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10563ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-03 16:52:36) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10281ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:53:03) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8531ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:55:54) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9547ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 16:58:04) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6375ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:00:21) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9078ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:00:54) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6828ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:02:14) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #18 of app/views/trends/index.html.haml:
+15:           - @photos.each do |text, photos|
+16:             - photos.each do |p|
+17:               10.times do
+18:                 %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+19:                   %span#link.link
+20:                     #{link_to text, url_escape("/tweets/#{text}")}
+21:                   %span#share.share
+
+    app/views/trends/index.html.haml:18
+    haml (2.2.4) lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:18:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (266.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:02:43) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11328ms (View: 344, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:03:14) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6047ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:03:31) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7281ms (View: 609, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:14:54) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9453ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:17:05) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6375ms (View: 156, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:18:00) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5985ms (View: 188, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:23:42) [GET]

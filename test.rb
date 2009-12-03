@@ -1,1 +1,1 @@
-puts "#T’hingsILéove) ...".gsub(/[#) ... é ’]/, "")
+puts "#Google Public DNS".gsub(/[#)...é’]/, "").gsub(/[ ]/, ",")
