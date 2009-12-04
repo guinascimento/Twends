@@ -2,7 +2,7 @@ require 'net/http'
 require 'hpricot'
 
 class Flickr
-	def Flickr.search(text, per_page = 1)
+	def self.search(text, per_page = 1)
 		text = clean(text)
 		url = "http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=#{per_page}&tags=#{text}&tagmode=any"
 		xml = Net::HTTP.get(URI.parse(url));
@@ -17,7 +17,7 @@ class Flickr
 		end
 	end
 
-	def Flickr.clean(text)
+	def self.clean(text)
 		text = text.gsub(/[#)...é’]/, "")
 		text = text.gsub(/[ ]/, ",")
 	end
