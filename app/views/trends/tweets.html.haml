@@ -30,8 +30,8 @@
 						#bottom-middle
 						#bottom-right
 					#images
-						- @photos.each do |photos|
-							- photos.each do |p|
-								%span{:class => "photo_balloon", :style => "background-image:url('#{p.url 's'}');"}
+						- unless @photos == nil
+							- @photos.each do |img|
+								%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
 		#footer_images
 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.

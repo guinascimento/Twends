@@ -58,6 +58,7 @@ body {
 	margin-left: 0;
 	padding: 5px;
 	padding-left: 7px;
+	padding-top: 7px;
 	color: #fff;
 	background: #006E2E;
 	-webkit-border-radius: 6px;
@@ -67,7 +68,7 @@ body {
 	-moz-border-radius-topleft: 0;
 	-moz-border-radius-bottomleft: 0;
 	font-size: 13px;
-	line-height: 10px;
+	line-height: 0px;
 	display: none;
 }
 
