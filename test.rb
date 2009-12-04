@@ -1,1 +1,0 @@
-puts "#Google Public DNS".gsub(/[#)...é’]/, "").gsub(/[ ]/, ",")

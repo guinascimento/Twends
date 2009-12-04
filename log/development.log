@@ -27583,3 +27583,362 @@ Completed in 5985ms (View: 188, DB: 0) | 200 OK [http://localhost/]
 
 
 Processing TrendsController#minute (for 127.0.0.1 at 2009-12-03 17:23:42) [GET]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 17:29:24) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12766ms (View: 94, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 17:29:37) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12985ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:29:56) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 13328ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:30:10) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 13750ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 17:30:30) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11219ms (View: 15, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 17:30:41) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11531ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:31:13) [GET]
+  Parameters: {"trend"=>"Google Wave"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 4766ms (View: 3875, DB: 0) | 200 OK [http://localhost/tweets/Google%20Wave]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:31:44) [POST]
+  Parameters: {"trend"=>"flamengo", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/flamengo
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:31:44) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2594ms (View: 1734, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:32:01) [POST]
+  Parameters: {"trend"=>"mac", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/mac
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:32:01) [GET]
+  Parameters: {"trend"=>"mac"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2844ms (View: 1875, DB: 0) | 200 OK [http://localhost/tweets/mac]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:32:11) [POST]
+  Parameters: {"trend"=>"macbook", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/macbook
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:32:11) [GET]
+  Parameters: {"trend"=>"macbook"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3203ms (View: 1781, DB: 0) | 200 OK [http://localhost/tweets/macbook]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:32:22) [POST]
+  Parameters: {"trend"=>"malhação", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/malha%C3%A7%C3%A3o
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:32:22) [GET]
+  Parameters: {"trend"=>"malhação"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=9&tags=malhação&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:9:in `search'
+  app/controllers/trends_controller.rb:46:in `tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:32:31) [POST]
+  Parameters: {"trend"=>"malhacao", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/malhacao
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:32:31) [GET]
+  Parameters: {"trend"=>"malhacao"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2750ms (View: 1500, DB: 0) | 200 OK [http://localhost/tweets/malhacao]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:35:50) [POST]
+  Parameters: {"trend"=>"malhação", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/malha%25C3%25A7%25C3%25A3o
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:35:50) [GET]
+  Parameters: {"trend"=>"malha%C3%A7%C3%A3o"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3031ms (View: 1562, DB: 0) | 200 OK [http://localhost/tweets/malha%25C3%25A7%25C3%25A3o]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:36:22) [GET]
+  Parameters: {"trend"=>"malha%C3%A7%C3%A3o"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1953ms (View: 1156, DB: 0) | 200 OK [http://localhost/tweets/malha%25C3%25A7%25C3%25A3o]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:36:26) [GET]
+  Parameters: {"trend"=>"malhacao"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3953ms (View: 2265, DB: 0) | 200 OK [http://localhost/tweets/malhacao]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:36:42) [POST]
+  Parameters: {"trend"=>"malhação", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/malha%C3%A7%C3%A3o
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:36:42) [GET]
+  Parameters: {"trend"=>"malhação"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=9&tags=malhação&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:9:in `search'
+  app/controllers/trends_controller.rb:46:in `tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:39:16) [GET]
+  Parameters: {"trend"=>"malhação"}
+
+NoMethodError (undefined method `host' for #<String:0x48daf8c>):
+  c:/ruby/lib/ruby/1.8/net/http.rb:379:in `get_response'
+  c:/ruby/lib/ruby/1.8/net/http.rb:356:in `get'
+  lib/Flickr.rb:9:in `search'
+  app/controllers/trends_controller.rb:46:in `tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:39:26) [GET]
+
+NoMethodError (undefined method `host' for #<String:0x4792490>):
+  c:/ruby/lib/ruby/1.8/net/http.rb:379:in `get_response'
+  c:/ruby/lib/ruby/1.8/net/http.rb:356:in `get'
+  lib/Flickr.rb:9:in `search'
+  app/controllers/trends_controller.rb:11:in `minute'
+  app/controllers/trends_controller.rb:10:in `each'
+  app/controllers/trends_controller.rb:10:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (391.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:41:12) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 14453ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:41:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 14532ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:41:45) [GET]
+  Parameters: {"trend"=>"#worldcupdraw"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3453ms (View: 2313, DB: 0) | 200 OK [http://localhost/tweets/%23worldcupdraw]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:41:56) [POST]
+  Parameters: {"trend"=>"malhação", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/malha%25C3%25A7%25C3%25A3o
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:41:56) [GET]
+  Parameters: {"trend"=>"malha%C3%A7%C3%A3o"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 7188ms (View: 3469, DB: 0) | 200 OK [http://localhost/tweets/malha%25C3%25A7%25C3%25A3o]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:42:03) [POST]
+  Parameters: {"trend"=>"malhação", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/malha%25C3%25A7%25C3%25A3o
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:42:03) [GET]
+  Parameters: {"trend"=>"malha%C3%A7%C3%A3o"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 6329ms (View: 3079, DB: 0) | 200 OK [http://localhost/tweets/malha%25C3%25A7%25C3%25A3o]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:43:19) [GET]
+  Parameters: {"trend"=>"malha%C3%A7%C3%A3o"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 15593ms (View: 7328, DB: 0) | 200 OK [http://localhost/tweets/malha%25C3%25A7%25C3%25A3o]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:43:35) [GET]
+  Parameters: {"trend"=>"#worldcupdraw"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 29266ms (View: 25063, DB: 0) | 200 OK [http://localhost/tweets/%23worldcupdraw]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:44:04) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 26781ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:44:31) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 29656ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:45:01) [GET]
+  Parameters: {"trend"=>"Follow Friday"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5188ms (View: 3641, DB: 0) | 200 OK [http://localhost/tweets/Follow%20Friday]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 17:45:12) [POST]
+  Parameters: {"trend"=>"malhação", "authenticity_token"=>"SnCmCv+2rj3NzwKstaHcW1HU0l9UKYJsL3E9842lF6U="}
+Redirected to http://localhost:3000/tweets/malha%C3%A7%C3%A3o
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 17:45:12) [GET]
+  Parameters: {"trend"=>"malhação"}
+
+URI::InvalidURIError (bad URI(is not URI?): http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=9&tags=malhação&tagmode=any):
+  c:/ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  c:/ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  lib/Flickr.rb:9:in `search'
+  app/controllers/trends_controller.rb:46:in `tweets'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 18:07:45) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11719ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 18:07:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 14047ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 18:08:15) [GET]
