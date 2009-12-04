@@ -20,7 +20,7 @@ class Flickr
 	end
 
 	def Flickr.clean(text)
-		text = text.gsub(/[#) ... é ’]/, "")
-		text = text.gsub(/[ ]/, "")
+		text = text.gsub(/[#)...é’]/, "")
+		text = text.gsub(/[ ]/, ",")
 	end
 end

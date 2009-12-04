@@ -13,8 +13,16 @@
           = link_to "Week", { :action => "week" }, :class => is_active?("week")
         #main.image
           - @photos.each do |text, imgs|
-            - imgs.each do |img|
-              %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+            - if imgs != nil
+              - imgs.each do |img|
+                %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+                  %span#link.link
+                    #{link_to text, url_escape("/tweets/#{text}")}
+                  %span#share.share
+                    = link_to image_tag("twitter.png"), "http://search.twitter.com/search?q=#{text}"
+                    = link_to image_tag("flickr.png"), "http://www.flickr.com/search/?w=all&q=#{text}"
+            - else
+              %span{:class => "photo", :style => "background-image:url('')"}
                 %span#link.link
                   #{link_to text, url_escape("/tweets/#{text}")}
                 %span#share.share

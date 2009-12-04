@@ -28103,3 +28103,1541 @@ Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 03:05:59) [GET]
 Rendering template within layouts/application
 Rendering trends/tweets
 Completed in 2469ms (View: 1875, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 11:44:05) [GET]
+Total: 1
+Total: 2
+Total: 3
+Total: 4
+Total: 5
+Total: 6
+Total: 7
+Total: 8
+Total: 9
+Total: 10
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8344ms (View: 266, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 11:46:40) [GET]
+Total: 10
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5594ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 11:53:06) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9484ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 11:53:29) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5688ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 11:53:52) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5547ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 11:54:17) [GET]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 11:57:24) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7203ms (View: 78, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 11:57:36) [GET]
+Total: 1
+Total: 2
+Total: 3
+Total: 4
+Total: 5
+Total: 6
+Total: 7
+Total: 8
+Total: 9
+Total: 10
+Total: 11
+Total: 12
+Total: 13
+Total: 14
+Total: 15
+Total: 16
+Total: 17
+Total: 18
+Total: 19
+Total: 20
+Total: 21
+Total: 22
+Total: 23
+Total: 24
+Total: 25
+Total: 26
+Total: 27
+Total: 28
+Total: 29
+Total: 30
+Total: 31
+Total: 32
+Total: 33
+Total: 34
+Total: 35
+Total: 36
+Total: 37
+Total: 38
+Total: 39
+Total: 40
+Total: 41
+Total: 42
+Total: 43
+Total: 44
+Total: 45
+Total: 46
+Total: 47
+Total: 48
+Total: 49
+Total: 50
+Total: 51
+Total: 52
+Total: 53
+Total: 54
+Total: 55
+Total: 56
+Total: 57
+Total: 58
+Total: 59
+Total: 60
+Total: 61
+Total: 62
+Total: 63
+Total: 64
+Total: 65
+Total: 66
+Total: 67
+Total: 68
+Total: 69
+Total: 70
+Total: 71
+Total: 72
+Total: 73
+Total: 74
+Total: 75
+Total: 76
+Total: 77
+Total: 78
+Total: 79
+Total: 80
+Total: 81
+Total: 82
+Total: 83
+Total: 84
+Total: 85
+Total: 86
+Total: 87
+Total: 88
+Total: 89
+Total: 90
+Total: 91
+Total: 92
+Total: 93
+Total: 94
+Total: 95
+Total: 96
+Total: 97
+Total: 98
+Total: 99
+Total: 100
+Total: 101
+Total: 102
+Total: 103
+Total: 104
+Total: 105
+Total: 106
+Total: 107
+Total: 108
+Total: 109
+Total: 110
+Total: 111
+Total: 112
+Total: 113
+Total: 114
+Total: 115
+Total: 116
+Total: 117
+Total: 118
+Total: 119
+Total: 120
+Total: 121
+Total: 122
+Total: 123
+Total: 124
+Total: 125
+Total: 126
+Total: 127
+Total: 128
+Total: 129
+Total: 130
+Total: 131
+Total: 132
+Total: 133
+Total: 134
+Total: 135
+Total: 136
+Total: 137
+Total: 138
+Total: 139
+Total: 140
+Total: 141
+Total: 142
+Total: 143
+Total: 144
+Total: 145
+Total: 146
+Total: 147
+Total: 148
+Total: 149
+Total: 150
+Total: 151
+Total: 152
+Total: 153
+Total: 154
+Total: 155
+Total: 156
+Total: 157
+Total: 158
+Total: 159
+Total: 160
+Total: 161
+Total: 162
+Total: 163
+Total: 164
+Total: 165
+Total: 166
+Total: 167
+Total: 168
+Total: 169
+Total: 170
+Total: 171
+Total: 172
+Total: 173
+Total: 174
+Total: 175
+Total: 176
+Total: 177
+Total: 178
+Total: 179
+Total: 180
+Total: 181
+Total: 182
+Total: 183
+Total: 184
+Total: 185
+Total: 186
+Total: 187
+Total: 188
+Total: 189
+Total: 190
+Total: 191
+Total: 192
+Total: 193
+Total: 194
+Total: 195
+Total: 196
+Total: 197
+Total: 198
+Total: 199
+Total: 200
+Total: 201
+Total: 202
+Total: 203
+Total: 204
+Total: 205
+Total: 206
+Total: 207
+Total: 208
+Total: 209
+Total: 210
+Total: 211
+Total: 212
+Total: 213
+Total: 214
+Total: 215
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 11:59:48) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5859ms (View: 78, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 11:59:57) [GET]
+480
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 1187ms (View: 0, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 12:00:39) [GET]
+210
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7515ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:01:04) [GET]
+10
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11140ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 12:08:26) [GET]
+480
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 14438ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 12:09:12) [GET]
+  Parameters: {"trend"=>"#openwebawards"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3625ms (View: 2687, DB: 0) | 200 OK [http://localhost/tweets/%23openwebawards]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:10:22) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6000ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 12:10:40) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9313ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 12:10:56) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7765ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 12:11:07) [GET]
+  Parameters: {"trend"=>"Paranormal Activity"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3735ms (View: 2797, DB: 0) | 200 OK [http://localhost/tweets/Paranormal%20Activity]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:11:18) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7453ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:13:27) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7328ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:21:36) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7734ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:22:39) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6390ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:37:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8266ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 12:38:17) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8422ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 12:38:44) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11485ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:39:01) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7828ms (View: 157, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:39:32) [GET]
+
+SystemStackError (stack level too deep):
+  app/controllers/trends_controller.rb:14:in `minute'
+  app/controllers/trends_controller.rb:14:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:39:41) [GET]
+
+SystemStackError (stack level too deep):
+  app/controllers/trends_controller.rb:14:in `minute'
+  app/controllers/trends_controller.rb:14:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:41:09) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, imgs|
+16:             - imgs.each do |img|
+17:               %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+18:                 %span#link.link
+19:                   #{link_to text, url_escape("/tweets/#{text}")}
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:14:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:42:13) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, imgs|
+16:             - imgs.each do |img|
+17:               %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+18:                 %span#link.link
+19:                   #{link_to text, url_escape("/tweets/#{text}")}
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:14:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (188.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:42:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, imgs|
+16:             - imgs.each do |img|
+17:               %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+18:                 %span#link.link
+19:                   #{link_to text, url_escape("/tweets/#{text}")}
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:15:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:43:20) [GET]
+
+#<Photo:0x4696000>
+#<Photo:0x469199c>
+
+#<Photo:0x48e33e4>
+#<Photo:0x48d800c>
+#<Photo:0x48cf498>
+#<Photo:0x48c400c>
+
+#<Photo:0x48b96fc>
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, imgs|
+16:             - imgs.each do |img|
+17:               %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+18:                 %span#link.link
+19:                   #{link_to text, url_escape("/tweets/#{text}")}
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:15:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:45:46) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 13641ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:46:23) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5688ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:47:03) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (The line was indented 2 levels deeper than the previous line.) on line #26 of app/views/trends/index.html.haml:
+23:                     = link_to image_tag("flickr.png"), "http://www.flickr.com/search/?w=all&q=#{text}"
+24:             - else
+25:               %span{:class => "photo", :style => "background-image:url('')"}
+26:                   %span#link.link
+27:                     #{link_to text, url_escape("/tweets/#{text}")}
+28:                   %span#share.share
+29:                     = link_to image_tag("twitter.png"), "http://search.twitter.com/search?q=#{text}"
+
+    app/views/trends/index.html.haml:26
+    haml (2.2.4) lib/haml/precompiler.rb:171:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:14:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:47:27) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (The line was indented 2 levels deeper than the previous line.) on line #26 of app/views/trends/index.html.haml:
+23:                     = link_to image_tag("flickr.png"), "http://www.flickr.com/search/?w=all&q=#{text}"
+24:             - else
+25:               %span{:class => "photo", :style => "background-image:url('')"}
+26:                   %span#link.link
+27:                     #{link_to text, url_escape("/tweets/#{text}")}
+28:                   %span#share.share
+29:                     = link_to image_tag("twitter.png"), "http://search.twitter.com/search?q=#{text}"
+
+    app/views/trends/index.html.haml:26
+    haml (2.2.4) lib/haml/precompiler.rb:171:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:14:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:47:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6094ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:48:03) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7204ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:48:23) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7188ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:49:17) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8610ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:49:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5547ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:51:30) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6062ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:51:37) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5563ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 12:54:30) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12031ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:56:14) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11750ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:56:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7828ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:57:14) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7812ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:57:22) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8328ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:57:36) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8781ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:57:45) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9657ms (View: 234, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:57:56) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7172ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:58:03) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7109ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:58:10) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6813ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:58:18) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7890ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:58:42) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9453ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:58:52) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9188ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:59:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5812ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 12:59:32) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6391ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:00:16) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6375ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:01:12) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 11359ms (View: 125, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:03:16) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6657ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:03:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8875ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:03:38) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8985ms (View: 78, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:04:06) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9813ms (View: 125, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:04:24) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5735ms (View: 110, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:04:30) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6203ms (View: 328, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:06:27) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12156ms (View: 94, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:06:50) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7984ms (View: 78, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:07:13) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6141ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:07:20) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8547ms (View: 187, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:07:42) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7203ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:07:50) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6750ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:08:40) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7016ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:08:47) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6344ms (View: 32, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:08:59) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6609ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:09:06) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7453ms (View: 422, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:09:40) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6484ms (View: 62, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 13:09:47) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6797ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 13:10:58) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7796ms (View: 15, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 13:11:06) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6094ms (View: 15, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:11:14) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5515ms (View: 93, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:11:20) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5484ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:11:43) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/controllers/trends_controller.rb:10:in `minute'
+  app/controllers/trends_controller.rb:9:in `each'
+  app/controllers/trends_controller.rb:9:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (391.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:13:25) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5985ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:14:20) [GET]
+  Parameters: {"trend"=>"#badmovieilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #33 of app/views/trends/tweets.html.haml:
+30: 						#bottom-middle
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:48:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:14:49) [GET]
+  Parameters: {"trend"=>"#badmovieilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2547ms (View: 2062, DB: 0) | 200 OK [http://localhost/tweets/%23badmovieilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:15:32) [GET]
+  Parameters: {"trend"=>"#badmovieilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #33 of app/views/trends/tweets.html.haml:
+30: 						#bottom-middle
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							- if img != nil
+35: 								%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+36: 							- else
+
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:48:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:15:46) [GET]
+  Parameters: {"trend"=>"#badmovieilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #33 of app/views/trends/tweets.html.haml:
+30: 						#bottom-middle
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							- if img != nil
+35: 								%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+36: 							- else
+
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:48:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:16:30) [GET]
+  Parameters: {"trend"=>"#badmovieilove"}
+nil
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #33 of app/views/trends/tweets.html.haml:
+30: 						#bottom-middle
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							- if img != nil
+35: 								%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+36: 							- else
+
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:48:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:17:06) [GET]
+  Parameters: {"trend"=>"#badmovieilove"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2515ms (View: 2078, DB: 0) | 200 OK [http://localhost/tweets/%23badmovieilove]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:17:23) [GET]
+  Parameters: {"trend"=>"Nick Jonas & The"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1968ms (View: 1047, DB: 0) | 200 OK [http://localhost/tweets/Nick%20Jonas%20&%20The]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:23:12) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7250ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 13:23:19) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6172ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:23:28) [GET]
+  Parameters: {"trend"=>"Web Design Goes"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2094ms (View: 985, DB: 0) | 200 OK [http://localhost/tweets/Web%20Design%20Goes]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 13:23:38) [POST]
+  Parameters: {"trend"=>"flamengo", "authenticity_token"=>"p/zBVUDY6H/yxyqRsiijV5BYNi4WpMNrTTVggcmqS5Y="}
+Redirected to http://localhost:3000/tweets/flamengo
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 13:23:38) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1797ms (View: 1188, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 14:04:25) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 5078ms (View: 4078, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 14:04:30) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7547ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 14:04:38) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8625ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:13:25) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8437ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:13:34) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6407ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 15:13:48) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8000ms (View: 31, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 15:13:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6766ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 15:14:04) [GET]
+  Parameters: {"trend"=>"#whywomencheat"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1766ms (View: 1078, DB: 0) | 200 OK [http://localhost/tweets/%23whywomencheat]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 15:14:25) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7797ms (View: 110, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 15:14:33) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6375ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:15:04) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5578ms (View: 156, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:15:10) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7766ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:19:50) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6203ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:19:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5578ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:28:50) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8094ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:28:58) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6156ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 15:32:20) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8062ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 15:32:28) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6203ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 15:33:47) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8266ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 15:33:56) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9328ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:34:05) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5422ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:34:11) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6390ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:36:23) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5500ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:36:29) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5797ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:36:41) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8938ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:36:50) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8015ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:37:01) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5687ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:37:07) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5656ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:37:22) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5797ms (View: 328, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:37:29) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5422ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:38:53) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7625ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:39:01) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6375ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:39:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6297ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:40:04) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5422ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:40:16) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5594ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:40:22) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6563ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:40:30) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5406ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:40:35) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8859ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:40:44) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5578ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 15:40:50) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6953ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 16:16:34) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 15968ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 16:16:50) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9000ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:06:13) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 12172ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:06:26) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 33437ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:07:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6656ms (View: 328, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:08:04) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6422ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:08:40) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6484ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:08:47) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6313ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:09:30) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6469ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:09:36) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6563ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:10:03) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6062ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:10:09) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8125ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:10:27) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6515ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:10:34) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8750ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:11:11) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 9922ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:11:22) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 10157ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:11:55) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6484ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 17:12:02) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6500ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 17:12:27) [GET]
