@@ -1,6 +1,7 @@
 class Photo
 	attr_reader :farm, :server, :id, :secret
 
+
 	def initialize(doc)
 		@farm = doc["farm"]
 		@server = doc["server"]
