@@ -12,9 +12,9 @@
           |
           = link_to "Week", { :action => "week" }, :class => is_active?("week")
         #main.image
-          - @photos.each do |text, photos|
-            - photos.each do |p|
-              %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+          - @photos.each do |text, imgs|
+            - imgs.each do |img|
+              %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
                 %span#link.link
                   #{link_to text, url_escape("/tweets/#{text}")}
                 %span#share.share

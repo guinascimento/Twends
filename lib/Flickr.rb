@@ -1,32 +1,26 @@
 require 'net/http'
-require 'rexml/document'
-require 'ostruct'
+require 'hpricot'
+require 'Photo'
 
-class Flickr < OpenStruct
-	include REXML
-
+class Flickr
 	def Flickr.search(text, per_page = 1)
 		text = clean(text)
 
-		doc = Document.new(
-			Net::HTTP.get(
-				URI.parse("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f" + "&per_page=#{per_page}&tags=#{text}&tagmode=any")))
+		url = "http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=da0e80ad7b47166b7fc008a1e4ac604f&per_page=#{per_page}&tags=#{text}&tagmode=any"
+		xml = Net::HTTP.get(URI.parse(url));
 
-		 throw "flickr error" unless doc.root.attributes['stat'] == "ok"
-		 doc.root.elements['photos'].get_elements('//photo').collect {|photo| photo << Flickr.new(photo) }
-	end
+		doc = Hpricot.XML(xml)
+		throw "An exception occurred while getting the photos from Flickr." unless doc.at("rsp")["stat"] == "ok"
 
-	def initialize(e)
-		super(e.attributes)
-		self.new_ostruct_member("photo_id")
-		self.photo_id = e.attributes['id']
-	end
-
-	def url(image_type = "m")
-		"http://farm#{farm}.static.flickr.com/#{server}/#{photo_id}_#{secret}_#{image_type}.jpg"
+		if doc.at("photos")["total"].to_i > 0
+			(doc/:photos/:photo).collect do |p|
+				Photo.new(p)
+			end
+		end
 	end
 
 	def Flickr.clean(text)
 		text = text.gsub(/[#) ... é ’]/, "")
+		text = text.gsub(/[ ]/, "")
 	end
 end

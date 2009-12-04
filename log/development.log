@@ -27233,3 +27233,873 @@ Cached fragment hit: views/localhost:3000/index (62.0ms)
 Filter chain halted as [#<ActionController::Caching::Actions::ActionCacheFilter:0x47cdc48 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>120 seconds}}>] rendered_or_redirected.
 Filter chain halted as [#<ActionController::Filters::AroundFilter:0x47cdaf4 @kind=:filter, @options={:unless=>nil, :only=>#<Set: {"week", "minute", "day"}>, :if=>nil}, @identifier=nil, @method=#<ActionController::Caching::Actions::ActionCacheFilter:0x47cdc48 @options={:layout=>nil, :cache_path=>nil, :store_options=>{:expires_in=>120 seconds}}>>] did_not_yield.
 Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 02:20:55) [GET]
+
+NameError (undefined local variable or method `m' for #<TrendsController:0x4861ed4>):
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 02:21:12) [GET]
+
+NoMethodError (undefined method `name' for #<Array:0x46efd44>):
+  app/controllers/trends_controller.rb:13:in `minute'
+  app/controllers/trends_controller.rb:11:in `each'
+  app/controllers/trends_controller.rb:11:in `minute'
+  haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (781.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 02:21:23) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (undefined method `each' for #<Photo:0x4850c10>) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, photos|
+16:             - photos.each do |p|
+17:               %span{:class => "photo", :style => "background-image:url('#{p.url}')"}
+18:                 %span#link.link
+19:                   #{link_to text, url_escape("/tweets/#{text}")}
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:18:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (484.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 02:25:33) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5563ms (View: 109, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 02:25:45) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.url) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, img|
+16:             %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+17:               %span#link.link
+18:                 #{link_to text, url_escape("/tweets/#{text}")}
+19:               %span#share.share
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:32:in `day'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-04 02:27:09) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8484ms (View: 15, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:27:36) [GET]
+  Parameters: {"trend"=>"XMas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (undefined method `each' for #<Photo:0x46d4ddc>) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |photos|
+34: 							- photos.each do |p|
+35: 								%span{:class => "photo_balloon", :style => "background-image:url('#{p.url 's'}');"}
+36: 		#footer_images
+37: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:57:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-04 02:27:43) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8953ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 02:28:00) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 16593ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:28:58) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `url'
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:57:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (391.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:31:30) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `url'
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:58:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (391.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:31:47) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (undefined method `each' for #<Photo:0x4808708>) on line #33 of app/views/trends/tweets.html.haml:
+30: 						#bottom-middle
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:58:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (453.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 02:55:09) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (undefined method `url' for #<Array:0x4863040>) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, img|
+16:             %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+17:               %span#link.link
+18:                 #{link_to text, url_escape("/tweets/#{text}")}
+19:               %span#share.share
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:19:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (329.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 02:55:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (undefined method `url' for #<Array:0x47f48d4>) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, img|
+16:             %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+17:               %span#link.link
+18:                 #{link_to text, url_escape("/tweets/#{text}")}
+19:               %span#share.share
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:19:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:56:33) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (undefined method `url' for #<Array:0x48278c4>) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:57:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (235.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:56:54) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `url'
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:56:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:57:36) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `url'
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:56:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:57:54) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 3907ms (View: 3329, DB: 0) | 200 OK [http://localhost/tweets/New%20Moon]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:58:30) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `url'
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:59:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:58:48) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `url'
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:60:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 02:59:05) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1610ms (View: 1063, DB: 0) | 200 OK [http://localhost/tweets/New%20Moon]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 03:00:31) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `url'
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:56:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 03:01:42) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+ERROR: compiling _run_haml_app47views47trends47tweets46html46haml RAISED compile error
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:34: syntax error, unexpected '}', expecting tCOLON2 or '[' or '.'
+_hamlout.open_tag("span", false, true, false, false, {}, false, false, nil, nil, :class => "photo_balloon", :style => "background-image:url('#{img.url, 's'}');");
+                                                                                                                                                            ^
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:36: syntax error, unexpected tIDENTIFIER, expecting '}'
+_hamlout.push_text("          </div>\n        </div>\n      </div>\n    </div>\n    <div id='footer_images'>\n      Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.\n    </div>\n  </div>\n</body>\n", -6, false);@haml_buffer = @haml_buffer.upper;_erbout;
+                                                                                                          ^
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:36: unterminated string meets end of file
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:36: syntax error, unexpected $end, expecting '}'
+Function body:           def _run_haml_app47views47trends47tweets46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:encoding=>nil, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<body>\n  <div id='content'>\n    <div id='logo'>\n      #{_hamlout.adjust_tabs(3); haml_temp =  link_to image_tag("logo.png", :border => "0"), "http://twends.heroku.com"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <h1>#{_hamlout.adjust_tabs(1); haml_temp = "Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Flickr", "http://www.flickr.com", :id => "flickr"} photos)"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</h1>\n    </div>\n    <div id='banner'>\n      <div id='contentleft_balloon'>\n        <div class='subpage' id='container_balloon'>\n          <div id='content_balloon' style='width:100%'>\n            <div id='top-left'></div>\n            <div id='top-middle'></div>\n            <div id='top-right'></div>\n            <div class='wrapper_balloon'>\n              <div id='search'>\n", 5, false); form_tag("/tweets") do;
+_hamlout.push_text("                #{haml_temp =  text_field_tag "trend"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;
+_hamlout.push_text("              </div>\n              <ul id='listticker'>\n", 0, false); @tweets.each do |t|;
+
+_hamlout.push_text("                <li>\n", 1, false);_hamlout.open_tag("img", true, true, false, false, {}, false, false, nil, nil, :src => "http://img.tweetimag.es/i/#{t.from_user}_n", :class => "avatar");
+
+
+
+
+_hamlout.push_text("                  <span id='tweet_user'>\n                    #{_hamlout.adjust_tabs(1); haml_temp = "#{t.from_user}"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n                  </span>\n                  <span id='tweet'>\n                    #{haml_temp =  link_to t.text, "http://twitter.com/#{t.from_user}/status/#{t.id}", :target => "blank"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n                    <br />\n                  </span>\n                  <span id='tweet_options'>\n                    #{haml_temp =  time_ago_in_words(t.created_at)
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n                  </span>\n                </li>\n", -2, false);end;
+
+
+
+
+_hamlout.push_text("              </ul>\n              <div id='main' style='margin-top: 15px'></div>\n            </div>\n            <div id='bottom-left'></div>\n            <div id='bottom-middle'></div>\n            <div id='bottom-right'></div>\n          </div>\n          <div id='images'>\n", -2, false); @photos.each do |img|;
+_hamlout.open_tag("span", false, true, false, false, {}, false, false, nil, nil, :class => "photo_balloon", :style => "background-image:url('#{img.url, 's'}');");
+_hamlout.push_text("            </span>\n", -1, false);end;
+_hamlout.push_text("          </div>\n        </div>\n      </div>\n    </div>\n    <div id='footer_images'>\n      Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.\n    </div>\n  </div>\n</body>\n", -6, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: c:/RailsProjects/twends/app/views/trends/tweets.html.haml:36:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/haml/helpers/action_view_mods.rb:13:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/RailsProjects/twends/app/controllers/trends_controller.rb:56:in `tweets'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-2.2.4/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:34: syntax error, unexpected '}', expecting tCOLON2 or '[' or '.'
+_hamlout.open_tag("span", false, true, false, false, {}, false, false, nil, nil, :class => "photo_balloon", :style => "background-image:url('#{img.url, 's'}');");
+                                                                                                                                                            ^
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:36: syntax error, unexpected tIDENTIFIER, expecting '}'
+_hamlout.push_text("          </div>\n        </div>\n      </div>\n    </div>\n    <div id='footer_images'>\n      Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.\n    </div>\n  </div>\n</body>\n", -6, false);@haml_buffer = @haml_buffer.upper;_erbout;
+                                                                                                          ^
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:36: unterminated string meets end of file
+c:/RailsProjects/twends/app/views/trends/tweets.html.haml:36: syntax error, unexpected $end, expecting '}') on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url, 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:36:in `compile!'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:56:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (296.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 03:02:36) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #34 of app/views/trends/tweets.html.haml:
+31: 						#bottom-right
+32: 					#images
+33: 						- @photos.each do |img|
+34: 							%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+35: 		#footer_images
+36: 			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
+
+    app/views/trends/tweets.html.haml:34:in `url'
+    app/views/trends/tweets.html.haml:34:in `_run_haml_app47views47trends47tweets46html46haml'
+    app/views/trends/tweets.html.haml:33:in `each'
+    app/views/trends/tweets.html.haml:33:in `_run_haml_app47views47trends47tweets46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:56:in `tweets'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (422.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 03:02:56) [GET]
+  Parameters: {"trend"=>"New Moon"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 1640ms (View: 1109, DB: 0) | 200 OK [http://localhost/tweets/New%20Moon]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 03:03:17) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+
+ActionView::TemplateError (undefined method `url' for #<Array:0x4646654>) on line #16 of app/views/trends/index.html.haml:
+13:           = link_to "Week", { :action => "week" }, :class => is_active?("week")
+14:         #main.image
+15:           - @photos.each do |text, img|
+16:             %span{:class => "photo", :style => "background-image:url('#{img.url}')"}
+17:               %span#link.link
+18:                 #{link_to text, url_escape("/tweets/#{text}")}
+19:               %span#share.share
+
+    app/views/trends/index.html.haml:16:in `_run_haml_app47views47trends47index46html46haml'
+    app/views/trends/index.html.haml:15:in `each'
+    app/views/trends/index.html.haml:15:in `_run_haml_app47views47trends47index46html46haml'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/trends_controller.rb:19:in `minute'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-04 03:05:33) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7734ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 03:05:48) [GET]
+  Parameters: {"trend"=>"Christmas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2891ms (View: 2125, DB: 0) | 200 OK [http://localhost/tweets/Christmas]
+
+
+Processing TrendsController#search (for 127.0.0.1 at 2009-12-04 03:05:58) [POST]
+  Parameters: {"trend"=>"flamengo", "authenticity_token"=>"Q8uz1bdOJepDEntz0Gu+wtTr6YqBrAYzWM9Mk3wUoa0="}
+Redirected to http://localhost:3000/tweets/flamengo
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/tweets]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-04 03:05:59) [GET]
+  Parameters: {"trend"=>"flamengo"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2469ms (View: 1875, DB: 0) | 200 OK [http://localhost/tweets/flamengo]
