@@ -1,6 +1,5 @@
 require 'net/http'
 require 'hpricot'
-require 'Photo'
 
 class Flickr
 	def Flickr.search(text, per_page = 1)
@@ -13,7 +12,7 @@ class Flickr
 
 		if doc.at("photos")["total"].to_i > 0
 			(doc/:photos/:photo).collect do |p|
-				Photo.new(p)
+				Flickr::Photo.new(p)
 			end
 		end
 	end
