@@ -1,4 +1,3 @@
-module Flickr
 class Photo
 	attr_reader :farm, :server, :id, :secret
 
@@ -12,5 +11,4 @@ class Photo
 	def url(image_type = "m")
 		"http://farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}_#{image_type}.jpg"
 	end
-end
 end

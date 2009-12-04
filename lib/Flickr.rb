@@ -12,7 +12,7 @@ class Flickr
 
 		if doc.at("photos")["total"].to_i > 0
 			(doc/:photos/:photo).collect do |p|
-				Flickr::Photo.new(p)
+				Photo.new(p)
 			end
 		end
 	end
