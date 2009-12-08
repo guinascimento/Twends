@@ -1,0 +1,5 @@
+<<<<<<< HEAD:.gems
+twitter --version 0.6.15
+=======
+twitter --version '>= 0.6.15'
+>>>>>>> bfd638db4e72ff4202617128b6f40345baf711b6:.gems

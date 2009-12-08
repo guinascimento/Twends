@@ -1,0 +1,82 @@
+<<<<<<< HEAD:app/views/layouts/application.html.haml
+= stylesheet_link_merged :base
+= javascript_include_merged :base
+
+
+%title Twends
+%meta{:name => "description", :content => "Discover what's happening in the world in pics (with Twiter trends and Flickr photos)"}
+%meta{:name => "keywords", :content => "flickr, twitter, trends, twitter trends, twends, world photos"}
+
+%script{:type => "text/javascript"} 
+  :plain
+    $(document).ready(function() {
+      $("span").hover(
+        function () {
+          $(this).find("#link").fadeIn("slow");
+          $(this).find("#share").fadeIn("slow");
+        }, 
+        function () {
+           $(this).find("#link").fadeOut("slow");
+           $(this).find("#share").fadeOut("slow");
+        }
+      );
+      
+      var first = 0;
+      var speed = 200;
+      var pause = 4500;
+
+      function removeFirst() {
+        first = $('ul#listticker li:first').html();
+        $('ul#listticker li:first').animate({opacity: 0}, speed).fadeOut('slow', function() {$(this).remove();});addLast(first);
+      }
+
+      function addLast(first){
+        last = '<li style="display:none">'+first+'</li>';
+        $('ul#listticker').append(last)
+        $('ul#listticker li:last').animate({opacity: 1}, speed).fadeIn('slow')
+      }
+
+      interval = setInterval(removeFirst, pause);
+    });
+   
+= yield
+   
+%script{:type => "text/javascript"} 
+  :plain
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+  %script{:type => "text/javascript"} 
+    :plain
+      try {
+        var pageTracker = _gat._getTracker("UA-11343959-1");
+        pageTracker._trackPageview();
+      } catch(err) {}
+
+  %script{:type => "text/javascript"} 
+    :plain
+      var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+      document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+
+  %script{:type => "text/javascript"} 
+    :plain
+      UserVoice.Tab.show({ 
+        /* required */
+        key: 'twends',
+        host: 'twends.uservoice.com', 
+        forum: '29677', 
+        /* optional */
+        alignment: 'left',
+        background_color:'#006E2E', 
+        text_color: 'white',
+        hover_color: '#008C00',
+        lang: 'en'
+      })
+=======
+= stylesheet_link_tag 'caption', 'main'
+= javascript_include_tag 'jquery', 'jcaption.min'
+
+%title Twends
+
+= yield
+>>>>>>> bfd638db4e72ff4202617128b6f40345baf711b6:app/views/layouts/application.html.haml
