@@ -1,0 +1,37 @@
+%body
+	#content
+		#logo
+			= link_to image_tag("logo.png", :border => "0"), "http://twends.heroku.com"
+			%h1 Discover what's happening in the world in pics (with #{link_to "Twitter", "http://www.twitter.com", :id => "twitter"} trends and #{link_to "Flickr", "http://www.flickr.com", :id => "flickr"} photos)
+		#banner
+			#contentleft_balloon						
+				%div{:id => "container_balloon", :class => "subpage"}
+					%div{:id => "content_balloon", :style => "width:100%"}
+						#top-left
+						#top-middle
+						#top-right
+						.wrapper_balloon
+							#search
+								- form_tag("/tweets") do
+									= text_field_tag "trend"
+							%ul#listticker
+								- @tweets.each do |t|
+									%li
+										%img{:src => "http://img.tweetimag.es/i/#{t.from_user}_n", :class => "avatar"}
+										%span#tweet_user
+											#{t.from_user}
+										%span#tweet
+											= link_to t.text, "http://twitter.com/#{t.from_user}/status/#{t.id}", :target => "blank"
+											%br
+										%span#tweet_options	
+											= time_ago_in_words(t.created_at)
+							%div{:id => "main", :style => "margin-top: 15px"}
+						#bottom-left
+						#bottom-middle
+						#bottom-right
+					#images
+						- unless @images == nil
+							- @images.each do |img|
+								%span{:class => "photo_balloon", :style => "background-image:url('#{img.url 's'}');"}
+		#footer_images
+			Copyright &#169; 2009 Twends, all rights reserved - Built using Rails, HAML and JQuery.
