@@ -1,3 +1,4 @@
 *.orig
 *.log
-log/**/* 
+log/**/*
+log/*.

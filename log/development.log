@@ -28209,3 +28209,12 @@ Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-09 01:20:29) [GET]
 Rendering template within layouts/application
 Rendering trends/tweets
 Completed in 2765ms (View: 2015, DB: 0) | 200 OK [http://localhost/tweets/Christmas]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-09 01:49:31) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5797ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-09 01:49:37) [GET]
