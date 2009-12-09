@@ -12,7 +12,7 @@
           |
           = link_to "Week", { :action => "week" }, :class => is_active?("week")
         #main.image
-          - @images.each do |text, imgs|
+          - @photos.each do |text, imgs|
             - if imgs != nil
               - imgs.each do |img|
                 %span{:class => "photo", :style => "background-image:url('#{img.url}')"}

@@ -1,26 +1,26 @@
-require 'Flickr'
+require 'flickr'
 
 class TrendsController < ApplicationController
 	layout "application"
 
 	def minute
 		minute = Twitter::Trends.current
-		@images = {}
+		@photos = {}
 
 		for trend in minute do
-			@images[trend.name] = Flickr.search(trend.name)
+			@photos[trend.name] = Flickr.search(trend.name)
 		end
 		render :template => "trends/index"
 	end
 
 	def day
 		day = Twitter::Trends.daily
-		@images = {}
+		@photos = {}
 		total = 0
 
 		for trend in day do
 			total += 1
-			@images[trend.name] = Flickr.search(trend.name)
+			@photos[trend.name] = Flickr.search(trend.name)
 			break if total == 10
 		end
 
@@ -29,12 +29,12 @@ class TrendsController < ApplicationController
 	
 	def week
 		week = Twitter::Trends.weekly
-		@images = {}
+		@photos = {}
 		total = 0
 
 		for trend in week do
 			total += 1
-			@images[trend.name] = Flickr.search(trend.name)
+			@photos[trend.name] = Flickr.search(trend.name)
 			break if total == 10
 		end
 
@@ -43,7 +43,7 @@ class TrendsController < ApplicationController
 	
 	def tweets
 		@tweets = Twitter::Search.new(params[:trend]).per_page(50)
-		@images = Flickr.search(params[:trend], 9)
+		@photos = Flickr.search(params[:trend], 9)
 
 		render :template => "trends/tweets"
 	end
