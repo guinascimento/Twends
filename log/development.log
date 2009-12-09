@@ -28166,3 +28166,46 @@ Processing TrendsController#day (for 127.0.0.1 at 2009-12-09 01:10:32) [GET]
 Rendering template within layouts/application
 Rendering trends/index
 Completed in 10531ms (View: 47, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-09 01:19:42) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 5969ms (View: 266, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#minute (for 127.0.0.1 at 2009-12-09 01:19:48) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 6078ms (View: 93, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-09 01:19:57) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 8172ms (View: 79, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#day (for 127.0.0.1 at 2009-12-09 01:20:05) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7594ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/day]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-09 01:20:13) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7438ms (View: 141, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#week (for 127.0.0.1 at 2009-12-09 01:20:21) [GET]
+Rendering template within layouts/application
+Rendering trends/index
+Completed in 7141ms (View: 16, DB: 0) | 200 OK [http://localhost/trends/week]
+
+
+Processing TrendsController#tweets (for 127.0.0.1 at 2009-12-09 01:20:29) [GET]
+  Parameters: {"trend"=>"Christmas"}
+Rendering template within layouts/application
+Rendering trends/tweets
+Completed in 2765ms (View: 2015, DB: 0) | 200 OK [http://localhost/tweets/Christmas]
