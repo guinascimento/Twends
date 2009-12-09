@@ -22,3 +22,4 @@ class Flickr
 		text = text.gsub(/[ ]/, ",")
 	end
 end
+#
